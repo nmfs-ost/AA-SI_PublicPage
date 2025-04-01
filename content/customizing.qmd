@@ -1,17 +1,23 @@
 ---
-title: Customization
+title: Background Materials
 ---
 
-## Quarto documentation
+## Active Acoustic Data Applications within NOAA
 
-Quarto allow many bells and whistles to make nice output. Read the documentation here [Quarto documentation](https://quarto.org/docs/guide/).
+add more details
 
-## Examples
+## Acoustic Instruments
 
-Looking at other people's Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.
+Scientific echosounders record data to manufacturer-specified binary formats. The AA-SI will work primarily with Kongsberg EK echosounders and data, but there are other echosounder manufacturers whose data we may use. We will update this site as we add other data sources.
 
-* [Quarto gallery](https://quarto.org/docs/gallery/)
-* [nmfs-openscapes](https://nmfs-openscapes.github.io/)
-* [Faye lab manual](https://thefaylab.github.io/lab-manual/)
-* [quarto-titlepages](https://nmfs-opensci.github.io/quarto_titlepages/) Note the link to edit is broken. Go to repo and look in `documentation` directory.
+### EK80
 
+The EK80 is the latest in the Kongsberg line of scientific echosounders. All NOAA FSVs and ships that have scientific echosounders collect data using the EK80. "EK80" refers to the echosounder (hardware that generates an electrical signal that is transmitted to the acoustic transducer and receives an electrical signal (voltage) that is then digitized and sent to the acquisition software, also known as "EK80". The EK80 has several echosounders that can be used. The shipboard echosounder is called a Wide-Band Transceiver (WBT), and portable units are WBT-Tubes or WBATs (Wide-Band Autonomous Transceivers).
+
+### EK60
+
+The EK60 is the previous generation scientific echosounder. It was introduced in the late 1990s, and was installed on NOAA ships in the early 2000s. The majority of historic data collected by NOAA is from the EK60. The echosounder was called the General Purpose Transceiver (GPT) and the data acquisition software was called "ER60". The EK80 software can control both WBTs and GPTs. Which software, ER60 or EK80, recorded the data is important to distinguish because the digital format of the data are different depending on software version.
+
+### EK500
+
+The EK500 was used from the 1980s (1970s?) until the early 2000s on NOAA ships. More on this...

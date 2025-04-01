@@ -13,4 +13,10 @@ Active acoustics here refers to multi-frequency and wide-bandwidth echosounders 
 
 NOAA collects active acoustic data from an increasingly diverse number of crewed and uncrewed platforms such as Fisheries Survey Vessels, autonomous surface and underwater vehicles, moorings, and landers. Compared to data from multi-frequency echosounders, wide-bandwidth echosounder data are much more voluminous and provide higher resolution frequency-response information, but also present challenges for data storage and analysis. Artificial intelligence (AI), machine learning (ML), and statistical techniques comprise advanced analytical methods that are needed to significantly accelerate automated echo classification through the combination of high-resolution echosounder, biological, and habitat data.
 
+## AA SI Meeting Schedule
 
+We are currently meeting on a bi-weekly basis and engaging with OMAO, contractors, and other collaborators regularly
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;ctz=Pacific%2FHonolulu&amp;showPrint=0&amp;src=bm9hYS5nb3ZfNjR2ZzdnN3IwMjhjZXZrNDZpdGhncTR2c29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D81B60" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no">
+
+</iframe>

@@ -42,7 +42,10 @@
     "href": "content/WhoWeAre.html",
     "title": "Meet the Team",
     "section": "",
-    "text": "We are scientists from NOAA Fisheries Science Centers around the country including Northeast, Southeast, Southwest, Northwest, Alaska, and Pacific Islands, and NOAA’s Office of Science and Technology and NOAA’s National Center for Environmental Information.\nWe are working with data scientists from NOAA’s Cooperative Institutes including University of Colorado Boulder (CIRES), University of Washington (CICOES), and University of California (CIMEAS)."
+    "text": "We are scientists from NOAA Fisheries Science Centers around the country including Northeast, Southeast, Southwest, Northwest, Alaska, and Pacific Islands, and NOAA’s Office of Science and Technology and NOAA’s National Center for Environmental Information.\nWe are working with data scientists from NOAA’s Cooperative Institutes including University of Colorado Boulder (CIRES), University of Washington (CICOES), and University of California (CIMEAS).",
+    "crumbs": [
+      "Who We Are"
+    ]
   },
   {
     "objectID": "content/rendering.html",

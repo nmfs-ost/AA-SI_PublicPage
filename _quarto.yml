@@ -15,7 +15,7 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
+    logo: "https://github.com/nmfs-ost/AA-SI_PublicPage/blob/main/images/AA-SI-logo_tbg_1x3in.png"
     favicon: images/favicon.ico
     pinned: true
     align: center
@@ -24,8 +24,8 @@ website:
         href: https://nmfs-opensci.github.io
         text: "NMFS Open Science"
       - icon: github
-        href: https://github.com/nmfs-opensci
-        text: "NMFS OpenSci"
+        href: https://github.com/nmfs-ost/AA-SI_PublicPage/tree/main
+        text: "Source Code"
 
     style: "docked"
     search: true
@@ -41,8 +41,6 @@ website:
         text: Rendering
       - href: content/rmarkdown.Rmd
         text: R Markdown files
-      - href: content/code.qmd
-        text: Code in your files
       - href: content/acknowledgements.qmd
         text: Acknowledgements
 

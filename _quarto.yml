@@ -15,7 +15,7 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://github.com/nmfs-ost/AA-SI_PublicPage/blob/main/images/AA-SI-logo_tbg_1x3in.png"
+    logo: "images/AA-SI-logo_tbg_1x3in.png"
     favicon: images/favicon.ico
     pinned: true
     align: center

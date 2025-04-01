@@ -36,7 +36,7 @@ website:
       - href: content/WhoWeAre.qmd
         text: Who We Are
       - href: content/customizing.qmd
-        text: Customizing
+        text: Background Material
       - href: content/rendering.qmd
         text: Rendering
       - href: content/rmarkdown.Rmd

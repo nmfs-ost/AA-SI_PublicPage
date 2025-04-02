@@ -11,25 +11,15 @@ We are also working with data scientists from NOAA's Cooperative Institutes incl
 ### Team Members:
 
 -   Mike Jech, NEFSC, SI Lead
-
 -   Reka Domokos, PIFSC Rep
-
 -   Elizabeth Phillips, NWFSC Rep
-
 -   Josiah Renfree, SWFSC Rep
-
 -   Patrick Ressler, AFSC Rep
-
 -   Timothy Rowell, SEFSC Rep
-
 -   Carrie Wall Bell, NCEI Rep
-
 -   Derek Bolser, OST Rep
-
 -   David Demer, OST Rep
-
 -   Robert Foy, Science Board Sponsor
-
 -   Rick Methot, Science Board Sponsor
 
 ### Collaborators:

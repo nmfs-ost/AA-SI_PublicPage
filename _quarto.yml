@@ -33,7 +33,7 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
-      - section: content/index.qmd
+      - section: content/activities.qmd
         text: AA SI Activities
         contents: 
           - href: content/ActivityA.qmd
@@ -48,8 +48,6 @@ website:
         text: Who We Are
       - href: content/background.qmd
         text: Background Material
-      - href: content/rmarkdown.Rmd
-        text: R Markdown files
       - href: content/acknowledgements.qmd
         text: Acknowledgements
 

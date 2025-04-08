@@ -35,7 +35,7 @@ website:
         text: Welcome
       - href: content/index.qmd
         text: AA SI Activities 
-        section: content/index.qmd
+      - section: content/index.qmd
         contents: 
           - content/ActivityA.qmd
           - content/ActivityB.qmd

@@ -7,7 +7,6 @@ We have four unique but related activities within the AA SI, each focusing on a 
 
 ## Activity A: Echo Classification
 
-
 ## Activity B: Validated Data
 
 ## Activity C: 

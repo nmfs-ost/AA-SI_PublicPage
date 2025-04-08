@@ -4,9 +4,10 @@ subtitle: "Revolutionizing and expanding opportunities for active acoustic data 
 page-layout: full
 ---
 
-<img src="images/AA-SI_data-schematic_20250127.png" width="600" height="500" align="right" />
+<img src="images/AA-SI_data-schematic_20250127.png" width="600" height="500" align="right"/>
 
 # Background
+
 The Active Acoustics Strategic Initiative (AA-SI) is a NOAA-Fisheries Essential Data Acquisition (EDA) project funded by the Inflation Reduction Act (IRA). It is a three-year project, with funding until the end of fiscal year 2026.
 
 Active acoustics here refers to multi-frequency and wide-bandwidth echosounders that span frequency spectra from kHz to mHz and data-processing and analytical software used to assess fish and zooplankton populations for fisheries research and management. Echosounders transmit pulses of sound into the ocean and record frequency-dependent echoes from marine organisms that are used to classify the echoes to taxa or species, map their distributions, and estimate abundances. Classification is done by manual or automated segmentation and attribution and may include ancillary information to enhance accuracy. Development of classification approaches is often stifled by large data volumes, continual improvements in processing wide-bandwidth and low-frequency acoustic data, and uncertainty in relationships with habitat factors.

@@ -1,15 +1,13 @@
 ---
-title: Active Acoustic SI Activities
+title: AA SI Activities
 ---
 
-We have four unique but related activities within the AA SI, each focusing on a different aspect of our vision: 
-
+We have four unique but related activities within the AA SI, each focusing on a different aspect of our vision:
 
 ## Activity A: Echo Classification
 
 ## Activity B: Validated Data
 
-## Activity C: 
+## Activity C:
 
-## Activity D: 
-
+## Activity D:

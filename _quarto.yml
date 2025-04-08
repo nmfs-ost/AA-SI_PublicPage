@@ -43,10 +43,8 @@ website:
           - content/ActivityD.qmd
       - href: content/WhoWeAre.qmd
         text: Who We Are
-      - href: content/customizing.qmd
+      - href: content/background.qmd
         text: Background Material
-      - href: content/rendering.qmd
-        text: Rendering
       - href: content/rmarkdown.Rmd
         text: R Markdown files
       - href: content/acknowledgements.qmd

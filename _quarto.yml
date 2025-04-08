@@ -32,8 +32,8 @@ website:
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: AA SI Home  
-     - href: content/index.qmd
+        text: Welcome
+      - href: content/index.qmd
         text: AA SI Activities 
         section: content/index.qmd
         contents: 

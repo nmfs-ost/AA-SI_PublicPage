@@ -33,12 +33,12 @@ website:
     contents:
       - href: index.qmd
         text: AA SI Home  
-        section: content/index.md
+        section: content/index.qmd
         contents: 
-          - content/ActivityA.md
-          - content/ActivityB.md
-          - content/ActivityC.md
-          - content/ActivityD.md
+          - content/ActivityA.qmd
+          - content/ActivityB.qmd
+          - content/ActivityC.qmd
+          - content/ActivityD.qmd
       - href: content/WhoWeAre.qmd
         text: Who We Are
       - href: content/customizing.qmd

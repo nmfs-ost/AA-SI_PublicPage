@@ -1,23 +1,32 @@
 [
   {
-    "objectID": "content/acknowledgements.html",
-    "href": "content/acknowledgements.html",
-    "title": "Acknowledgments",
+    "objectID": "content/customizing.html",
+    "href": "content/customizing.html",
+    "title": "Background Materials",
     "section": "",
-    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland.",
+    "text": "add more details",
     "crumbs": [
-      "Acknowledgements"
+      "Background Material"
     ]
   },
   {
-    "objectID": "content/ActivityA.html",
-    "href": "content/ActivityA.html",
-    "title": "NOAA quarto simple",
+    "objectID": "content/customizing.html#active-acoustic-data-applications-within-noaa",
+    "href": "content/customizing.html#active-acoustic-data-applications-within-noaa",
+    "title": "Background Materials",
     "section": "",
-    "text": "Active Acoustics SI\n\nActivity A",
+    "text": "add more details",
     "crumbs": [
-      "AA SI Home",
-      "Active Acoustics SI"
+      "Background Material"
+    ]
+  },
+  {
+    "objectID": "content/customizing.html#acoustic-instruments",
+    "href": "content/customizing.html#acoustic-instruments",
+    "title": "Background Materials",
+    "section": "Acoustic Instruments",
+    "text": "Acoustic Instruments\nScientific echosounders record data to manufacturer-specified binary formats. The AA-SI will work primarily with Kongsberg EK echosounders and data, but there are other echosounder manufacturers whose data we may use. We will update this site as we add other data sources.\n\nEK80\nThe EK80 is the latest in the Kongsberg line of scientific echosounders. All NOAA FSVs and ships that have scientific echosounders collect data using the EK80. “EK80” refers to the echosounder (hardware that generates an electrical signal that is transmitted to the acoustic transducer and receives an electrical signal (voltage) that is then digitized and sent to the acquisition software, also known as “EK80”. The EK80 has several echosounders that can be used. The shipboard echosounder is called a Wide-Band Transceiver (WBT), and portable units are WBT-Tubes or WBATs (Wide-Band Autonomous Transceivers).\n\n\nEK60\nThe EK60 is the previous generation scientific echosounder. It was introduced in the late 1990s, and was installed on NOAA ships in the early 2000s. The majority of historic data collected by NOAA is from the EK60. The echosounder was called the General Purpose Transceiver (GPT) and the data acquisition software was called “ER60”. The EK80 software can control both WBTs and GPTs. Which software, ER60 or EK80, recorded the data is important to distinguish because the digital format of the data are different depending on software version.\n\n\nEK500\nThe EK500 was used from the 1980s (1970s?) until the early 2000s on NOAA ships. More on this…",
+    "crumbs": [
+      "Background Material"
     ]
   },
   {
@@ -166,33 +175,24 @@
     "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
   },
   {
-    "objectID": "content/customizing.html",
-    "href": "content/customizing.html",
-    "title": "Background Materials",
+    "objectID": "content/ActivityA.html",
+    "href": "content/ActivityA.html",
+    "title": "NOAA quarto simple",
     "section": "",
-    "text": "add more details",
+    "text": "Active Acoustics SI\n\nActivity A",
     "crumbs": [
-      "Background Material"
+      "AA SI Home",
+      "Active Acoustics SI"
     ]
   },
   {
-    "objectID": "content/customizing.html#active-acoustic-data-applications-within-noaa",
-    "href": "content/customizing.html#active-acoustic-data-applications-within-noaa",
-    "title": "Background Materials",
+    "objectID": "content/acknowledgements.html",
+    "href": "content/acknowledgements.html",
+    "title": "Acknowledgments",
     "section": "",
-    "text": "add more details",
+    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland.",
     "crumbs": [
-      "Background Material"
-    ]
-  },
-  {
-    "objectID": "content/customizing.html#acoustic-instruments",
-    "href": "content/customizing.html#acoustic-instruments",
-    "title": "Background Materials",
-    "section": "Acoustic Instruments",
-    "text": "Acoustic Instruments\nScientific echosounders record data to manufacturer-specified binary formats. The AA-SI will work primarily with Kongsberg EK echosounders and data, but there are other echosounder manufacturers whose data we may use. We will update this site as we add other data sources.\n\nEK80\nThe EK80 is the latest in the Kongsberg line of scientific echosounders. All NOAA FSVs and ships that have scientific echosounders collect data using the EK80. “EK80” refers to the echosounder (hardware that generates an electrical signal that is transmitted to the acoustic transducer and receives an electrical signal (voltage) that is then digitized and sent to the acquisition software, also known as “EK80”. The EK80 has several echosounders that can be used. The shipboard echosounder is called a Wide-Band Transceiver (WBT), and portable units are WBT-Tubes or WBATs (Wide-Band Autonomous Transceivers).\n\n\nEK60\nThe EK60 is the previous generation scientific echosounder. It was introduced in the late 1990s, and was installed on NOAA ships in the early 2000s. The majority of historic data collected by NOAA is from the EK60. The echosounder was called the General Purpose Transceiver (GPT) and the data acquisition software was called “ER60”. The EK80 software can control both WBTs and GPTs. Which software, ER60 or EK80, recorded the data is important to distinguish because the digital format of the data are different depending on software version.\n\n\nEK500\nThe EK500 was used from the 1980s (1970s?) until the early 2000s on NOAA ships. More on this…",
-    "crumbs": [
-      "Background Material"
+      "Acknowledgements"
     ]
   }
 ]

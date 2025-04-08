@@ -33,14 +33,17 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
-      - href: content/index.qmd
-        text: AA SI Activities 
       - section: content/index.qmd
+        text: AA SI Activities
         contents: 
-          - content/ActivityA.qmd
-          - content/ActivityB.qmd
-          - content/ActivityC.qmd
-          - content/ActivityD.qmd
+          - href: content/ActivityA.qmd
+            text: Echo Classification
+          - href: content/ActivityB.qmd
+            text: Validated Data
+          - href: content/ActivityC.qmd
+            text: Activity C
+          - href: content/ActivityD.qmd
+            text: Activity D
       - href: content/WhoWeAre.qmd
         text: Who We Are
       - href: content/background.qmd

@@ -1,5 +1,5 @@
 ---
-title: Rendering
+title: AA SI Activities
 ---
 
 The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the `gh-pages` branch.

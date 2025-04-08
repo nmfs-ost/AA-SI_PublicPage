@@ -32,7 +32,13 @@ website:
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Home
+        text: AA SI Home  
+        section: content/index.md
+        contents: 
+          - content/ActivityA.md
+          - content/ActivityB.md
+          - content/ActivityC.md
+          - content/ActivityD.md
       - href: content/WhoWeAre.qmd
         text: Who We Are
       - href: content/customizing.qmd

@@ -33,6 +33,8 @@ website:
     contents:
       - href: index.qmd
         text: AA SI Home  
+     - href: content/index.qmd
+        text: AA SI Activities 
         section: content/index.qmd
         contents: 
           - content/ActivityA.qmd

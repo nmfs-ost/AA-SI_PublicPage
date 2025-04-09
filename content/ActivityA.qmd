@@ -1,3 +1,6 @@
 ---
-title: Activity A: Echo Classification 
+title: Activity A - Echo Classification
 ---
+
+### Develop advanced analytical methods for echo classification
+Echo classification is the process of assigning acoustic backscatter to a category that is meaningful to the person using the data. Classification ideally assigns backscatter to species-level taxa, but includes classification to lower taxonomic-levels, trophic levels, or acoustic scattering types. Routine processes developed at each Science Center are still time consuming and not directly transferable to automated, real-time decision making that could greatly improve survey capabilities using autonomous platforms, and they do not currently take full advantage of emerging sources of wide-bandwidth technology across a full spectrum from low-frequencies to echosounders to acoustic-cameras. We will revolutionize echo classification by developing processing techniques and building a cloud-based framework that will promote development and implementation of advanced analytical methods to classify backscatter to the lowest taxonomic level possible in near-real time. 

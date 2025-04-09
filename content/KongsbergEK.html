@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Meet the Team – NOAA quarto simple</title>
+<title>Kongsberg EK Data Format – NOAA quarto simple</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/activities.html" rel="next">
-<link href="../index.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -83,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/WhoWeAre.html">Who We Are</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Kongsberg EK Data Format</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -121,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/WhoWeAre.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/WhoWeAre.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Who We Are</span></a>
   </div>
 </li>
@@ -182,8 +180,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#team-members" id="toc-team-members" class="nav-link active" data-scroll-target="#team-members">Team Members:</a></li>
-  <li><a href="#collaborators" id="toc-collaborators" class="nav-link" data-scroll-target="#collaborators">Collaborators:</a></li>
+  <li><a href="#kongsberg-ek-data-format" id="toc-kongsberg-ek-data-format" class="nav-link active" data-scroll-target="#kongsberg-ek-data-format">Kongsberg EK Data Format</a>
+  <ul class="collapse">
+  <li><a href="#ek80-.raw-format" id="toc-ek80-.raw-format" class="nav-link" data-scroll-target="#ek80-.raw-format">EK80 .raw Format</a></li>
+  <li><a href="#ek60-.raw-format" id="toc-ek60-.raw-format" class="nav-link" data-scroll-target="#ek60-.raw-format">EK60 .raw Format</a></li>
+  <li><a href="#ek500-data-format" id="toc-ek500-data-format" class="nav-link" data-scroll-target="#ek500-data-format">EK500 data Format</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul></ul></div></nav>
     </div>
@@ -192,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Meet the Team</h1>
+<h1 class="title">Kongsberg EK Data Format</h1>
 </div>
 
 
@@ -209,33 +211,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We are scientists from <a href="https://www.fisheries.noaa.gov/contact-directory/science-centers">NOAA Fisheries Science Centers</a> around the country including Northeast, Southeast, Southwest, Northwest, Alaska, and Pacific Islands, and NOAA’s Office of Science and Technology (<a href="https://www.fisheries.noaa.gov/about/office-science-and-technology">OST</a>) and NOAA’s National Center for Environmental Information (<a href="https://www.ncei.noaa.gov/about-us">NCEI</a>).</p>
-<p>We partner with NOAA’s Office of Marine and Aviation Operations (<a href="https://www.omao.noaa.gov/about">OMAO</a>), and Office of the Chief Information Officer (<a href="https://www.noaa.gov/organization/information-technology/about-ocio">OCIO</a>)</p>
-<p>We are also working with data scientists from NOAA’s Cooperative Institutes including University of Colorado Boulder (<a href="https://cires.colorado.edu/about">CIRES</a>), University of Washington (<a href="https://cicoes.uw.edu/about/">CICOES</a>), and University of California (<a href="https://cimeas.ucsd.edu/about/">CIMEAS</a>).</p>
-<section id="team-members" class="level3">
-<h3 class="anchored" data-anchor-id="team-members">Team Members:</h3>
-<ul>
-<li>Mike Jech, NEFSC, SI Lead</li>
-<li>Reka Domokos, PIFSC Rep</li>
-<li>Elizabeth Phillips, NWFSC Rep</li>
-<li>Josiah Renfree, SWFSC Rep</li>
-<li>Patrick Ressler, AFSC Rep</li>
-<li>Timothy Rowell, SEFSC Rep</li>
-<li>Carrie Wall Bell, NCEI Rep</li>
-<li>Derek Bolser, OST Rep</li>
-<li>David Demer, OST Rep</li>
-<li>Robert Foy, Science Board Sponsor</li>
-<li>Rick Methot, Science Board Sponsor</li>
-</ul>
+<section id="kongsberg-ek-data-format" class="level1">
+<h1>Kongsberg EK Data Format</h1>
+<p>Data formats for the Kongsberg EK echosounders have changed with each model and within models. While these formats are proprietary to the manufacturer, the formats are published for anyone to write custom software to read the data files. Almost all fisheries institutions that use the active acoustic data have custom-built software to read, process, and analyze the data, and in addition, many use a commercial software package, <a href="https://echoview.com/">Echoview</a> to read, process, and analyze the data.</p>
+<section id="ek80-.raw-format" class="level2">
+<h2 class="anchored" data-anchor-id="ek80-.raw-format">EK80 .raw Format</h2>
+<p>More information on the EK80 .raw data format can be found <a href="">here</a>.</p>
 </section>
-<section id="collaborators" class="level3">
-<h3 class="anchored" data-anchor-id="collaborators">Collaborators:</h3>
-<ul>
-<li>Wu-Jung Lee, University of Washington, Applied Physics Lab</li>
-<li>Valentina Staneva, University of Washington, eScience Institute</li>
-</ul>
+<section id="ek60-.raw-format" class="level2">
+<h2 class="anchored" data-anchor-id="ek60-.raw-format">EK60 .raw Format</h2>
+<p>More information on the EK60 .raw data format can be found <a href="">here</a>.</p>
+</section>
+<section id="ek500-data-format" class="level2">
+<h2 class="anchored" data-anchor-id="ek500-data-format">EK500 data Format</h2>
+<p>More information on the EK500 data formats can be found <a href="">here</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -800,18 +792,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link" aria-label="Welcome">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../content/activities.html" class="pagination-link" aria-label="AA SI Activities">
-        <span class="nav-page-text">AA SI Activities</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

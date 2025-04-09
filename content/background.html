@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/acknowledgements.html" rel="next">
-<link href="../content/WhoWeAre.html" rel="prev">
+<link href="../content/acknowledgements.qmd" rel="next">
+<link href="../content/ActivityD.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -119,6 +119,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Welcome</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/WhoWeAre.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Who We Are</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../content/activities.html" class="sidebar-item-text sidebar-link">
@@ -156,19 +162,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/WhoWeAre.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Who We Are</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../content/background.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Background Material</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/acknowledgements.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/acknowledgements.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Acknowledgements</span></a>
   </div>
 </li>
@@ -189,6 +189,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#ek60" id="toc-ek60" class="nav-link" data-scroll-target="#ek60">EK60</a></li>
   <li><a href="#ek500" id="toc-ek500" class="nav-link" data-scroll-target="#ek500">EK500</a></li>
   </ul></li>
+  <li><a href="#annotation-data" id="toc-annotation-data" class="nav-link" data-scroll-target="#annotation-data">Annotation Data</a></li>
+  <li><a href="#metadata" id="toc-metadata" class="nav-link" data-scroll-target="#metadata">Metadata</a></li>
+  <li><a href="#biological-data" id="toc-biological-data" class="nav-link" data-scroll-target="#biological-data">Biological Data</a></li>
+  <li><a href="#oceanographic-data" id="toc-oceanographic-data" class="nav-link" data-scroll-target="#oceanographic-data">Oceanographic Data</a></li>
+  <li><a href="#meteorological-data" id="toc-meteorological-data" class="nav-link" data-scroll-target="#meteorological-data">Meteorological Data</a></li>
+  <li><a href="#benthic-habitat-data" id="toc-benthic-habitat-data" class="nav-link" data-scroll-target="#benthic-habitat-data">Benthic Habitat Data</a></li>
+  <li><a href="#pelagic-habitat-data" id="toc-pelagic-habitat-data" class="nav-link" data-scroll-target="#pelagic-habitat-data">Pelagic Habitat Data</a></li>
   </ul>
 <div class="toc-actions"><ul></ul></div></nav>
     </div>
@@ -214,27 +221,57 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>The goal of the Active Acoustics Strategic Initiative (AA-SI) includes organizing and standardizing multi-frequency and wide-bandwidth echosounder data to enable efficient data processing and analysis. We provide some background information on how active acoustics are used to study fish and zooplankton, the types of equipment and data formats commonly employed, and requirements for data standarization.</p>
 <section id="active-acoustic-data-applications-within-noaa" class="level2">
 <h2 class="anchored" data-anchor-id="active-acoustic-data-applications-within-noaa">Active Acoustic Data Applications within NOAA</h2>
-<p>add more details</p>
+<p>NOAA Fisheries is charged with conducting stock assessments of commercially-important species of fish, and frequently uses acoustic-trawl surveys to accomplish this. … add more details …</p>
 </section>
 <section id="acoustic-instruments" class="level2">
 <h2 class="anchored" data-anchor-id="acoustic-instruments">Acoustic Instruments</h2>
-<p>Scientific echosounders record data to manufacturer-specified binary formats. The AA-SI will work primarily with Kongsberg EK echosounders and data, but there are other echosounder manufacturers whose data we may use. We will update this site as we add other data sources.</p>
+<p>Scientific echosounders record data to manufacturer-specified binary formats. The AA-SI works primarily with Kongsberg EK echosounders and data, but there are other echosounder manufacturers whose data we may use. We will update this site as we add other data sources.</p>
+<p>In addition to the active acoustic data, we will work with annotations, metadata, and contextual data, such as biological, oceanographic, meteorological, and other benthic and pelagic habitat data.</p>
 <section id="ek80" class="level3">
 <h3 class="anchored" data-anchor-id="ek80">EK80</h3>
-<p>The EK80 is the latest in the Kongsberg line of scientific echosounders. All NOAA FSVs and ships that have scientific echosounders collect data using the EK80. “EK80” refers to the echosounder (hardware that generates an electrical signal that is transmitted to the acoustic transducer and receives an electrical signal (voltage) that is then digitized and sent to the acquisition software, also known as “EK80”. The EK80 has several echosounders that can be used. The shipboard echosounder is called a Wide-Band Transceiver (WBT), and portable units are WBT-Tubes or WBATs (Wide-Band Autonomous Transceivers).</p>
+<p>The <a href="https://www.kongsberg.com/discovery/ocean-science/ek-family/ek80/">EK80</a> is the latest in the Kongsberg line of scientific echosounders. All NOAA FSVs and ships that have scientific echosounders collect data using the EK80. “EK80” refers to the echosounder (hardware that generates an electrical signal that is transmitted to the acoustic transducer and receives an electrical signal (voltage) that is then digitized and sent to the acquisition software, also known as “EK80”. The EK80 has several echosounders that can be used. The shipboard echosounder is called a Wide-Band Transceiver (WBT), and portable units are WBT-Tubes or WBATs (Wide-Band Autonomous Transceivers).</p>
 </section>
 <section id="ek60" class="level3">
 <h3 class="anchored" data-anchor-id="ek60">EK60</h3>
-<p>The EK60 is the previous generation scientific echosounder. It was introduced in the late 1990s, and was installed on NOAA ships in the early 2000s. The majority of historic data collected by NOAA is from the EK60. The echosounder was called the General Purpose Transceiver (GPT) and the data acquisition software was called “ER60”. The EK80 software can control both WBTs and GPTs. Which software, ER60 or EK80, recorded the data is important to distinguish because the digital format of the data are different depending on software version.</p>
+<p>The <a href="https://www.kongsberg.com/discovery/products/discontinued/simrad-ek60/">EK60</a> is the previous generation scientific echosounder. It was introduced in the late 1990s, and was installed on NOAA ships in the early 2000s. The majority of historic data collected by NOAA is from the EK60. The echosounder was called the General Purpose Transceiver (GPT) and the data acquisition software was called “ER60”. The EK80 software can control both WBTs and GPTs. Which software, ER60 or EK80, recorded the data is important to distinguish because the digital format of the data are different depending on software version.</p>
 </section>
 <section id="ek500" class="level3">
 <h3 class="anchored" data-anchor-id="ek500">EK500</h3>
 <p>The EK500 was used from the 1980s (1970s?) until the early 2000s on NOAA ships. More on this…</p>
-
-
 </section>
+</section>
+<section id="annotation-data" class="level2">
+<h2 class="anchored" data-anchor-id="annotation-data">Annotation Data</h2>
+<p>Find out more about the active acoustic annotations <a href="">here</a>.</p>
+</section>
+<section id="metadata" class="level2">
+<h2 class="anchored" data-anchor-id="metadata">Metadata</h2>
+<p>Find out more about metadata formats <a href="">here</a>.</p>
+</section>
+<section id="biological-data" class="level2">
+<h2 class="anchored" data-anchor-id="biological-data">Biological Data</h2>
+<p>Find out more about the biological data <a href="">here</a>.</p>
+</section>
+<section id="oceanographic-data" class="level2">
+<h2 class="anchored" data-anchor-id="oceanographic-data">Oceanographic Data</h2>
+<p>Find out more about the oceanographic data <a href="">here</a>.</p>
+</section>
+<section id="meteorological-data" class="level2">
+<h2 class="anchored" data-anchor-id="meteorological-data">Meteorological Data</h2>
+<p>Find out more about the meteorological data <a href="">here</a>.</p>
+</section>
+<section id="benthic-habitat-data" class="level2">
+<h2 class="anchored" data-anchor-id="benthic-habitat-data">Benthic Habitat Data</h2>
+<p>Find out more about the benthic habitat data <a href="">here</a>.</p>
+</section>
+<section id="pelagic-habitat-data" class="level2">
+<h2 class="anchored" data-anchor-id="pelagic-habitat-data">Pelagic Habitat Data</h2>
+<p>Find out more about the pelagic habitat data <a href="">here</a>.</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -801,12 +838,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/WhoWeAre.html" class="pagination-link" aria-label="Who We Are">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Who We Are</span>
+      <a href="../content/ActivityD.html" class="pagination-link" aria-label="Satellite Communications">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Satellite Communications</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/acknowledgements.html" class="pagination-link" aria-label="Acknowledgements">
+      <a href="../content/acknowledgements.qmd" class="pagination-link" aria-label="Acknowledgements">
         <span class="nav-page-text">Acknowledgements</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>

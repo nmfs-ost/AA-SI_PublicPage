@@ -33,6 +33,8 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
+      - href: content/WhoWeAre.qmd
+        text: Who We Are
       - section: content/activities.qmd
         contents: 
           - href: content/ActivityA.qmd
@@ -43,8 +45,6 @@ website:
             text: Cloud Storage and Computing
           - href: content/ActivityD.qmd
             text: Satellite Communications
-      - href: content/WhoWeAre.qmd
-        text: Who We Are
       - href: content/background.qmd
         text: Background Material
       - href: content/acknowledgements.qmd

@@ -1,4 +1,3 @@
 ---
-title: Activity C: Ship to Shore
+title: Activity C - Cloud Storage and Computing
 ---
-

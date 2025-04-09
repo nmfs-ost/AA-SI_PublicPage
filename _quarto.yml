@@ -45,10 +45,11 @@ website:
             text: Cloud Storage and Computing
           - href: content/ActivityD.qmd
             text: Satellite Communications
+      - href: content/onboarding.qmd
+        text: Onboarding
       - href: content/background.qmd
         text: Background Material
-      - href: content/acknowledgements.qmd
-        text: Acknowledgements
+
 
 format:
   html:

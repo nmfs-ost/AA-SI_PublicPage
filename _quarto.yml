@@ -6,7 +6,7 @@ website:
   title: "NOAA quarto simple" 
   site-url: "https://nmfs-ost.github.io/AA-SI_PublicPage/" 
   repo-url: "https://nmfs-ost.github.io/AA-SI_PublicPage/"
-  repo-actions: false
+  repo-actions: [none]
   favicon: images/favicon.ico
   
   page-footer:

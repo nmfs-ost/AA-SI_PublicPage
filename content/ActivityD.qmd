@@ -1,3 +1,7 @@
 ---
 title: Activity D - Satellite Communications
 ---
+
+### Satellite Communication: 
+
+We will install additional hardware and pay a monthly fee to use Starlink on OMAO platforms for scientific purposes. We will demonstrate a use case in the IRA period, after which leadership can evaluate the utility of continuing to fund high-bandwidth satellite communication to deployed acoustic instruments and near real time data sharing. 

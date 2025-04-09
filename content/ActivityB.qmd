@@ -1,4 +1,8 @@
 ---
-title: Activity B: Validated Data
+title: Activity B - Validated Data
 ---
 
+### Assemble training datasets from validated, historical echosounder and co-variate data (FY24-FY26)
+Developing advanced analytical methods for echo classification requires high-quality, validated (accurately attributed to lowest taxonomic level) acoustic data and associated co-variate data. Most Centers have accumulated these data for stock assessment, but not in formats that are useful for input to advanced analytical models. In addition, co-variate data (e.g., oceanographic data, eDNA, optics, net catches, life history) and acoustical characteristics of species of interest are critical to improving the effectiveness of echo classification. 
+
+Validated acoustic data can be obtained from empirical observations and theoretical scattering models. Empirical observations consist of acoustic data synchronized and co-located with net catches, optical images, or other samples of the origins of acoustic backscatter. Theoretical scattering models provide species-specific predicted backscatter and target strength that are used to confirm empirical observations over a wide range of environmental conditions, anatomical features, and acoustic frequency spectra. We will assemble example training datasets from pre-existing data sources that includes ancillary data used for acoustic validation, which will form the basis for developing advanced analytical methods for echo classification.

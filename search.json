@@ -1,5 +1,16 @@
 [
   {
+    "objectID": "content/ActivityC.html",
+    "href": "content/ActivityC.html",
+    "title": "Activity C - Cloud Storage and Computing",
+    "section": "",
+    "text": "Cloud Storage and Computing:\nOur cloud infrastructure needs consist of data storage and computing time for processing, analysis, and analytical software development. Our budget accounts for storage requested by each FSC per year. We plan to store data in FSC buckets and use NCEI to archive and store historical data, which can be accessed via Amazon Web Service (AWS). Data computing costs consist of two virtual machine instances per Center.",
+    "crumbs": [
+      "AA SI Activities",
+      "Activity C"
+    ]
+  },
+  {
     "objectID": "content/ActivityA.html",
     "href": "content/ActivityA.html",
     "title": "Activity A - Echo Classification",

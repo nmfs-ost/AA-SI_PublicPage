@@ -7,7 +7,7 @@
     "text": "Cloud Storage and Computing:\nOur cloud infrastructure needs consist of data storage and computing time for processing, analysis, and analytical software development. Our budget accounts for storage requested by each FSC per year. We plan to store data in FSC buckets and use NCEI to archive and store historical data, which can be accessed via Amazon Web Service (AWS). Data computing costs consist of two virtual machine instances per Center.",
     "crumbs": [
       "AA SI Activities",
-      "Activity C"
+      "Cloud Storage and Computing"
     ]
   },
   {
@@ -129,7 +129,7 @@
     "text": "Satellite Communication:\nWe will install additional hardware and pay a monthly fee to use Starlink on OMAO platforms for scientific purposes. We will demonstrate a use case in the IRA period, after which leadership can evaluate the utility of continuing to fund high-bandwidth satellite communication to deployed acoustic instruments and near real time data sharing.",
     "crumbs": [
       "AA SI Activities",
-      "Activity D"
+      "Satellite Communications"
     ]
   },
   {

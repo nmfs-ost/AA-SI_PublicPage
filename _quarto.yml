@@ -4,8 +4,8 @@ project:
 website: 
   page-navigation: true
   title: "NOAA quarto simple" 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
-  repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
+  site-url: "https://nmfs-ost.github.io/AA-SI_PublicPage/" 
+  repo-url: "https://nmfs-ost.github.io/AA-SI_PublicPage/"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
@@ -34,16 +34,15 @@ website:
       - href: index.qmd
         text: Welcome
       - section: content/activities.qmd
-        text: AA SI Activities
         contents: 
           - href: content/ActivityA.qmd
             text: Echo Classification
           - href: content/ActivityB.qmd
             text: Validated Data
           - href: content/ActivityC.qmd
-            text: Activity C
+            text: Cloud Storage and Computing
           - href: content/ActivityD.qmd
-            text: Activity D
+            text: Satellite Communications
       - href: content/WhoWeAre.qmd
         text: Who We Are
       - href: content/background.qmd

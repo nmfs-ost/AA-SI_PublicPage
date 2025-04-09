@@ -1,4 +1,3 @@
 ---
-title: Activity D: Cloud
+title: Activity D - Satellite Communications
 ---
-

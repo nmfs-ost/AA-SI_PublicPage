@@ -4,10 +4,16 @@ title: AA SI Activities
 
 We have four unique but related activities within the AA SI, each focusing on a different aspect of our vision:
 
-## Activity A: Echo Classification
+### Activity A: Echo Classification
+Develop advanced analytical methods for echo classification
 
-## Activity B: Validated Data
+### Activity B: Validated Data
+Assemble training datasets from validated, historical echo sounder and co-variate data
 
-## Activity C:
+### Activity C: Cloud Storage and Computing
+Procure cloud storage and computing
 
-## Activity D:
+### Activity D: Satellite Communications
+Procure high-bandwidth satellite communications
+
+### Finally, we aim to continue testing, refining, and implementing these automated echo classification tools in support of reducing bias and improving efficiencies in NOAA Fisheries stock assessments

@@ -1,13 +1,44 @@
 [
   {
-    "objectID": "content/ActivityC.html",
-    "href": "content/ActivityC.html",
-    "title": "Activity C - Cloud Storage and Computing",
+    "objectID": "index.html#aa-si-meeting-schedule",
+    "href": "index.html#aa-si-meeting-schedule",
+    "title": "Active Acoustics Strategic Initiative",
+    "section": "AA SI Meeting Schedule",
+    "text": "AA SI Meeting Schedule\nWe are currently meeting on a bi-weekly basis and engaging with OMAO, contractors, and other collaborators regularly",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "content/ActivityA.html",
+    "href": "content/ActivityA.html",
+    "title": "Activity A - Echo Classification",
     "section": "",
-    "text": "Cloud Storage and Computing:\nOur cloud infrastructure needs consist of data storage and computing time for processing, analysis, and analytical software development. Our budget accounts for storage requested by each FSC per year. We plan to store data in FSC buckets and use NCEI to archive and store historical data, which can be accessed via Amazon Web Service (AWS). Data computing costs consist of two virtual machine instances per Center.",
+    "text": "Develop advanced analytical methods for echo classification\nEcho classification is the process of assigning acoustic backscatter to a category that is meaningful to the person using the data. Classification ideally assigns backscatter to species-level taxa, but includes classification to lower taxonomic-levels, trophic levels, or acoustic scattering types. Routine processes developed at each Science Center are still time consuming and not directly transferable to automated, real-time decision making that could greatly improve survey capabilities using autonomous platforms, and they do not currently take full advantage of emerging sources of wide-bandwidth technology across a full spectrum from low-frequencies to echosounders to acoustic-cameras. We will revolutionize echo classification by developing processing techniques and building a cloud-based framework that will promote development and implementation of advanced analytical methods to classify backscatter to the lowest taxonomic level possible in near-real time.",
     "crumbs": [
       "AA SI Activities",
-      "Cloud Storage and Computing"
+      "Echo Classification"
+    ]
+  },
+  {
+    "objectID": "content/ActivityD.html",
+    "href": "content/ActivityD.html",
+    "title": "Activity D - Satellite Communications",
+    "section": "",
+    "text": "Satellite Communication:\nWe will install additional hardware and pay a monthly fee to use Starlink on OMAO platforms for scientific purposes. We will demonstrate a use case in the IRA period, after which leadership can evaluate the utility of continuing to fund high-bandwidth satellite communication to deployed acoustic instruments and near real time data sharing.",
+    "crumbs": [
+      "AA SI Activities",
+      "Satellite Communications"
+    ]
+  },
+  {
+    "objectID": "content/activities.html",
+    "href": "content/activities.html",
+    "title": "AA SI Activities",
+    "section": "",
+    "text": "We have four unique but related activities within the AA SI, each focusing on a different aspect of our vision:\n\nActivity A: Echo Classification\nDevelop advanced analytical methods for echo classification\n\n\nActivity B: Validated Data\nAssemble training datasets from validated, historical echo sounder and co-variate data\n\n\nActivity C: Cloud Storage and Computing\nProcure cloud storage and computing\n\n\nActivity D: Satellite Communications\nProcure high-bandwidth satellite communications\n\n\nFinally, we aim to continue testing, refining, and implementing these automated echo classification tools in support of reducing bias and improving efficiencies in NOAA Fisheries stock assessments",
+    "crumbs": [
+      "AA SI Activities"
     ]
   },
   {
@@ -25,25 +56,49 @@
     "text": "Our Google workspace has computing environments (i.e., workstations) and a storage bucket. These have been set up by Josh Lee (joshua.lee@noaa.gov) and Ed Rodgers (ed.rodgers@noaa.gov) from NOAA’s Cloud Program Office. Our intitial workstations were “test” stations and we are in the process of building our “permanent” stations. This document provides details on how to set up the workstation and connect to the storage bucket."
   },
   {
-    "objectID": "content/ActivityB.html",
-    "href": "content/ActivityB.html",
-    "title": "Activity B - Validated Data",
+    "objectID": "content/netcdf4.html",
+    "href": "content/netcdf4.html",
+    "title": "netCDF4 Acoustic Data Format",
     "section": "",
-    "text": "Assemble training datasets from validated, historical echosounder and co-variate data (FY24-FY26)\nDeveloping advanced analytical methods for echo classification requires high-quality, validated (accurately attributed to lowest taxonomic level) acoustic data and associated co-variate data. Most Centers have accumulated these data for stock assessment, but not in formats that are useful for input to advanced analytical models. In addition, co-variate data (e.g., oceanographic data, eDNA, optics, net catches, life history) and acoustical characteristics of species of interest are critical to improving the effectiveness of echo classification.\nValidated acoustic data can be obtained from empirical observations and theoretical scattering models. Empirical observations consist of acoustic data synchronized and co-located with net catches, optical images, or other samples of the origins of acoustic backscatter. Theoretical scattering models provide species-specific predicted backscatter and target strength that are used to confirm empirical observations over a wide range of environmental conditions, anatomical features, and acoustic frequency spectra. We will assemble example training datasets from pre-existing data sources that includes ancillary data used for acoustic validation, which will form the basis for developing advanced analytical methods for echo classification.",
-    "crumbs": [
-      "AA SI Activities",
-      "Validated Data"
-    ]
+    "text": "The EK500, EK60/ER60, and EK80 echosounders recorded data in binary format. The format is proprietary and was developed by Kongsberg. Kongsberg freely distributes the format for anyone with interest in the data to develop software to read the data. The format differs among data acquisition systems and software, so it is important that the user know the source of the data. As part of this AA-SI, we will be primarily working with data that have been converted from the Kongsberg-format data (e.g., “.raw” files) to netCDF4 format by Echopype. We will be heavily invested in Echopype, so we will focus on the netCDF4 format.\nThe netCDF4 acoustic data follow several conventions: netCDF4, SONAR-netCDF4, and AcMeta."
   },
   {
-    "objectID": "content/ActivityD.html",
-    "href": "content/ActivityD.html",
-    "title": "Activity D - Satellite Communications",
+    "objectID": "content/netcdf4.html#netcdf4-format",
+    "href": "content/netcdf4.html#netcdf4-format",
+    "title": "netCDF4 Acoustic Data Format",
+    "section": "netCDF4 Format",
+    "text": "netCDF4 Format\nAs NOAA Fisheries active acoustic data have become public through NOAA’s National Center for Environmental Information NCEI or other portals, the ability for those outside of the fisheries institutions to utilize the data for purposes other than fisheries stock assessments is quite arduous to impossible. To broaden the utility of active acoustic data, the fisheries acoustics community has developed open data formats so that the data can be read by any software language. Early attempts included the HAC format, but these have mostly been supplanted by netCDF4. The AA-SI will be using the netCDF4 convention."
+  },
+  {
+    "objectID": "content/netcdf4.html#netcdf4---ek80",
+    "href": "content/netcdf4.html#netcdf4---ek80",
+    "title": "netCDF4 Acoustic Data Format",
+    "section": "netCDF4 - EK80",
+    "text": "netCDF4 - EK80\nFor now we start with .raw data that have been converted to netCDF4 format. This is done using a variation of the code:\nimport echopype as ep\ned = open_raw(raw-format-filename, sonar_model='EK80')\ned.to_netcdf(save_path=output-filename)\nIn this case, we use “EK80” for the sonar_model because we used the EK80 to record the data. The output-filename will have a “.nc” extension.\n\nWe will use pathlib for our file paths.\nOpen the newly created netCDF4 file(s):\nimport echopype as ep\nimport pathlib as Path\n# list of file names\nfilenames = [Path(file1.nc), Path(file2.nc), ...]\n# \"ed\" is short for \"echo data\"\nedlist = []\nfor f in filenames:\n    edlist.append(ep.open_converted(str(f)))\n# combine the data files into one xarray data set\ned = ep.combine_echodata(edlist)\n“ed” is the echo data object. To see the contents of the object, type\ned\nYou will see the top-level headers for the data."
+  },
+  {
+    "objectID": "content/netcdf4.html#netcdf4---ek60",
+    "href": "content/netcdf4.html#netcdf4---ek60",
+    "title": "netCDF4 Acoustic Data Format",
+    "section": "netCDF4 - EK60",
+    "text": "netCDF4 - EK60"
+  },
+  {
+    "objectID": "content/netcdf4.html#netcdf4---ek500",
+    "href": "content/netcdf4.html#netcdf4---ek500",
+    "title": "netCDF4 Acoustic Data Format",
+    "section": "netCDF4 - EK500",
+    "text": "netCDF4 - EK500"
+  },
+  {
+    "objectID": "content/ActivityC.html",
+    "href": "content/ActivityC.html",
+    "title": "Activity C - Cloud Storage and Computing",
     "section": "",
-    "text": "Satellite Communication:\nWe will install additional hardware and pay a monthly fee to use Starlink on OMAO platforms for scientific purposes. We will demonstrate a use case in the IRA period, after which leadership can evaluate the utility of continuing to fund high-bandwidth satellite communication to deployed acoustic instruments and near real time data sharing.",
+    "text": "Cloud Storage and Computing:\nOur cloud infrastructure needs consist of data storage and computing time for processing, analysis, and analytical software development. Our budget accounts for storage requested by each FSC per year. We plan to store data in FSC buckets and use NCEI to archive and store historical data, which can be accessed via Amazon Web Service (AWS). Data computing costs consist of two virtual machine instances per Center.",
     "crumbs": [
       "AA SI Activities",
-      "Satellite Communications"
+      "Cloud Storage and Computing"
     ]
   },
   {
@@ -65,110 +120,6 @@
     "crumbs": [
       "Onboarding"
     ]
-  },
-  {
-    "objectID": "content/WhoWeAre.html",
-    "href": "content/WhoWeAre.html",
-    "title": "Meet the Team",
-    "section": "",
-    "text": "We are scientists from NOAA Fisheries Science Centers around the country including Northeast, Southeast, Southwest, Northwest, Alaska, and Pacific Islands, and NOAA’s Office of Science and Technology (OST) and NOAA’s National Center for Environmental Information (NCEI).\nWe partner with NOAA’s Office of Marine and Aviation Operations (OMAO), and Office of the Chief Information Officer (OCIO)\nWe are also working with data scientists from NOAA’s Cooperative Institutes including University of Colorado Boulder (CIRES), University of Washington (CICOES), and University of California (CIMEAS).\n\nTeam Members:\n\nMike Jech, NEFSC, SI Lead\nReka Domokos, PIFSC Rep\nElizabeth Phillips, NWFSC Rep\nJosiah Renfree, SWFSC Rep\nPatrick Ressler, AFSC Rep\nTimothy Rowell, SEFSC Rep\nCarrie Wall Bell, NCEI Rep\nDerek Bolser, OST Rep\nDavid Demer, OST Rep\nRobert Foy, Science Board Sponsor\nRick Methot, Science Board Sponsor\n\n\n\nCollaborators:\n\nWu-Jung Lee, University of Washington, Applied Physics Lab\nValentina Staneva, University of Washington, eScience Institute",
-    "crumbs": [
-      "Who We Are"
-    ]
-  },
-  {
-    "objectID": "index.html#aa-si-meeting-schedule",
-    "href": "index.html#aa-si-meeting-schedule",
-    "title": "Active Acoustics Strategic Initiative",
-    "section": "AA SI Meeting Schedule",
-    "text": "AA SI Meeting Schedule\nWe are currently meeting on a bi-weekly basis and engaging with OMAO, contractors, and other collaborators regularly",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "content/KongsbergEK.html",
-    "href": "content/KongsbergEK.html",
-    "title": "Kongsberg EK Data Format",
-    "section": "",
-    "text": "Data formats for the Kongsberg EK echosounders have changed with each model and within models. While these formats are proprietary to the manufacturer, the formats are published for anyone to write custom software to read the data files. Almost all fisheries institutions that use the active acoustic data have custom-built software to read, process, and analyze the data, and in addition, many use a commercial software package, Echoview to read, process, and analyze the data.\n\n\nMore information on the EK80 .raw data format can be found here.\n\n\n\nMore information on the EK60 .raw data format can be found here.\n\n\n\nMore information on the EK500 data formats can be found here."
-  },
-  {
-    "objectID": "content/KongsbergEK.html#ek80-.raw-format",
-    "href": "content/KongsbergEK.html#ek80-.raw-format",
-    "title": "Kongsberg EK Data Format",
-    "section": "",
-    "text": "More information on the EK80 .raw data format can be found here."
-  },
-  {
-    "objectID": "content/KongsbergEK.html#ek60-.raw-format",
-    "href": "content/KongsbergEK.html#ek60-.raw-format",
-    "title": "Kongsberg EK Data Format",
-    "section": "",
-    "text": "More information on the EK60 .raw data format can be found here."
-  },
-  {
-    "objectID": "content/KongsbergEK.html#ek500-data-format",
-    "href": "content/KongsbergEK.html#ek500-data-format",
-    "title": "Kongsberg EK Data Format",
-    "section": "",
-    "text": "More information on the EK500 data formats can be found here."
-  },
-  {
-    "objectID": "content/GCPworkstations.html",
-    "href": "content/GCPworkstations.html",
-    "title": "Google Cloud Workstations",
-    "section": "",
-    "text": "For now we are using test workstations configured by NOAA OCIO. The only configuration we have available is the linux-base-32. This will change when we are able to create “permanent” workstations and we will update this page when we migrate.\n\n\n\nContact Josh Lee (joshua.lee@noaa.gov) and request a workstation.\nHe will send you a link to directions to set up a workstation.\nWe are using the Linux base 32 workstation for now. This is a very basic linux configuration, with not much installed. You will need to install software and packages.\n\n\n\n\n\nIn your web browser, go to link that was used to create the workstation.\nThe Google Cloud, Cloud Workstations page will open and your workstation will be under My workstations\nClick on the Start icon\nAfter the workstation starts, click on the cloud shell icon in the upper right, it looks like box with “&gt;_” in it.\n\nA terminal window will open on the lower part of the browser page. This is your “cloud shell” window.\nYou can make that a separate window by clicking on the box-with-arrow-pointing-to-NE icon in the upper right of the cloud-shell window.\n\nYou still need to open/launch the workstation.\nClick on the down arrow to the right of “LAUNCH” in the My workstations box\n\nSelect Connect using SSH…\nCopy the code by either highlighting all the code with your mouse or clicking on the two-overlayed-squares in the upper right corner.\n\nPaste the code in the cloud shell.\nIf you get a prompt with user@…, then you are in your workstation!\n\nYou will need to authorize each time by clicking on the “Authorize” icon when it appears.\n\nIf not, then most likely your home directory was not set correctly.\n\n&gt; pwd. IF it is “/”, the your home directory did not get set correctly.\n&gt; sudo chmod -R 777 /home/user\nExit the cloud shell by clicking on the “X” in the upper right corner of the cloud shell.\nStop the workstation by clicking on the solid square icon to the right of the “LAUNCH” icon\nRestart the workstation and connect via SSH (step 7)\nNow when you type “pwd”, you should get “/home/user”.\nIf not, contact Josh Lee.\n\n\n\n\n\nIt seems you need to install conda before you can install other programs and packages. 1. In the cloud shell follow these instructions: conda install 2. &gt; sudo wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh, where the https://… is from the conda website 3. &gt; bash Anaconda3-2024.06-1-Linux-x86_64.sh 4. &gt; cd anaconda3/bin 5. &gt; ./conda init 6. You will need to stop the cloudshell and restart it\n\n\n\nAfter you have conda installed, install pipx 1. The instructions are in pipx install 2. &gt; conda install conda-forge::pipx\n\n\n\nipython and ipython3 come with the conda environment. ipython3 is an interactive python kernel. It is the basis for Jupyter.\n\n\n\nTBD: I have not been successful at running this\n\n\n\nYou will need a series of Google Cloud packages to interact with the workstations and storage. 1. &gt; sudo apt-get update 2. gcloud CLI 1. &gt; sudo apt-get install google-cloud-cli 2. This can take a while 3. I first tried using the instructions but ran into errors. One problem was adding different repositories to the /etc/apt/sources.list.d/sources.list file (in Installation steps 1 and 2). 4. Install these as well: 1. &gt; pip install –upgrade google-cloud-vision 2. &gt; pip install –upgrade google-api-python-client 3. &gt; pip install –upgrade google-cloud-storage 4. &gt; pip install gcsfs 5. &gt; pip install –upgrade google-cloud-bigquery"
-  },
-  {
-    "objectID": "content/GCPworkstations.html#create-a-test-workstation",
-    "href": "content/GCPworkstations.html#create-a-test-workstation",
-    "title": "Google Cloud Workstations",
-    "section": "",
-    "text": "Contact Josh Lee (joshua.lee@noaa.gov) and request a workstation.\nHe will send you a link to directions to set up a workstation.\nWe are using the Linux base 32 workstation for now. This is a very basic linux configuration, with not much installed. You will need to install software and packages."
-  },
-  {
-    "objectID": "content/GCPworkstations.html#launch-a-workstation",
-    "href": "content/GCPworkstations.html#launch-a-workstation",
-    "title": "Google Cloud Workstations",
-    "section": "",
-    "text": "In your web browser, go to link that was used to create the workstation.\nThe Google Cloud, Cloud Workstations page will open and your workstation will be under My workstations\nClick on the Start icon\nAfter the workstation starts, click on the cloud shell icon in the upper right, it looks like box with “&gt;_” in it.\n\nA terminal window will open on the lower part of the browser page. This is your “cloud shell” window.\nYou can make that a separate window by clicking on the box-with-arrow-pointing-to-NE icon in the upper right of the cloud-shell window.\n\nYou still need to open/launch the workstation.\nClick on the down arrow to the right of “LAUNCH” in the My workstations box\n\nSelect Connect using SSH…\nCopy the code by either highlighting all the code with your mouse or clicking on the two-overlayed-squares in the upper right corner.\n\nPaste the code in the cloud shell.\nIf you get a prompt with user@…, then you are in your workstation!\n\nYou will need to authorize each time by clicking on the “Authorize” icon when it appears.\n\nIf not, then most likely your home directory was not set correctly.\n\n&gt; pwd. IF it is “/”, the your home directory did not get set correctly.\n&gt; sudo chmod -R 777 /home/user\nExit the cloud shell by clicking on the “X” in the upper right corner of the cloud shell.\nStop the workstation by clicking on the solid square icon to the right of the “LAUNCH” icon\nRestart the workstation and connect via SSH (step 7)\nNow when you type “pwd”, you should get “/home/user”.\nIf not, contact Josh Lee."
-  },
-  {
-    "objectID": "content/GCPworkstations.html#install-conda",
-    "href": "content/GCPworkstations.html#install-conda",
-    "title": "Google Cloud Workstations",
-    "section": "",
-    "text": "It seems you need to install conda before you can install other programs and packages. 1. In the cloud shell follow these instructions: conda install 2. &gt; sudo wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh, where the https://… is from the conda website 3. &gt; bash Anaconda3-2024.06-1-Linux-x86_64.sh 4. &gt; cd anaconda3/bin 5. &gt; ./conda init 6. You will need to stop the cloudshell and restart it"
-  },
-  {
-    "objectID": "content/GCPworkstations.html#install-pipx",
-    "href": "content/GCPworkstations.html#install-pipx",
-    "title": "Google Cloud Workstations",
-    "section": "",
-    "text": "After you have conda installed, install pipx 1. The instructions are in pipx install 2. &gt; conda install conda-forge::pipx"
-  },
-  {
-    "objectID": "content/GCPworkstations.html#ipython",
-    "href": "content/GCPworkstations.html#ipython",
-    "title": "Google Cloud Workstations",
-    "section": "",
-    "text": "ipython and ipython3 come with the conda environment. ipython3 is an interactive python kernel. It is the basis for Jupyter."
-  },
-  {
-    "objectID": "content/GCPworkstations.html#jupyter-lab",
-    "href": "content/GCPworkstations.html#jupyter-lab",
-    "title": "Google Cloud Workstations",
-    "section": "",
-    "text": "TBD: I have not been successful at running this"
-  },
-  {
-    "objectID": "content/GCPworkstations.html#install-google-cloud-packages",
-    "href": "content/GCPworkstations.html#install-google-cloud-packages",
-    "title": "Google Cloud Workstations",
-    "section": "",
-    "text": "You will need a series of Google Cloud packages to interact with the workstations and storage. 1. &gt; sudo apt-get update 2. gcloud CLI 1. &gt; sudo apt-get install google-cloud-cli 2. This can take a while 3. I first tried using the instructions but ran into errors. One problem was adding different repositories to the /etc/apt/sources.list.d/sources.list file (in Installation steps 1 and 2). 4. Install these as well: 1. &gt; pip install –upgrade google-cloud-vision 2. &gt; pip install –upgrade google-api-python-client 3. &gt; pip install –upgrade google-cloud-storage 4. &gt; pip install gcsfs 5. &gt; pip install –upgrade google-cloud-bigquery"
   },
   {
     "objectID": "content/background.html",
@@ -271,99 +222,108 @@
     ]
   },
   {
-    "objectID": "content/activities.html",
-    "href": "content/activities.html",
-    "title": "AA SI Activities",
+    "objectID": "content/ActivityB.html",
+    "href": "content/ActivityB.html",
+    "title": "Activity B - Validated Data",
     "section": "",
-    "text": "We have four unique but related activities within the AA SI, each focusing on a different aspect of our vision:",
-    "crumbs": [
-      "AA SI Activities"
-    ]
-  },
-  {
-    "objectID": "content/activities.html#activity-a-echo-classification",
-    "href": "content/activities.html#activity-a-echo-classification",
-    "title": "AA SI Activities",
-    "section": "Activity A: Echo Classification",
-    "text": "Activity A: Echo Classification",
-    "crumbs": [
-      "AA SI Activities"
-    ]
-  },
-  {
-    "objectID": "content/activities.html#activity-b-validated-data",
-    "href": "content/activities.html#activity-b-validated-data",
-    "title": "AA SI Activities",
-    "section": "Activity B: Validated Data",
-    "text": "Activity B: Validated Data",
-    "crumbs": [
-      "AA SI Activities"
-    ]
-  },
-  {
-    "objectID": "content/activities.html#activity-c",
-    "href": "content/activities.html#activity-c",
-    "title": "AA SI Activities",
-    "section": "Activity C:",
-    "text": "Activity C:",
-    "crumbs": [
-      "AA SI Activities"
-    ]
-  },
-  {
-    "objectID": "content/activities.html#activity-d",
-    "href": "content/activities.html#activity-d",
-    "title": "AA SI Activities",
-    "section": "Activity D:",
-    "text": "Activity D:",
-    "crumbs": [
-      "AA SI Activities"
-    ]
-  },
-  {
-    "objectID": "content/ActivityA.html",
-    "href": "content/ActivityA.html",
-    "title": "Activity A - Echo Classification",
-    "section": "",
-    "text": "Develop advanced analytical methods for echo classification\nEcho classification is the process of assigning acoustic backscatter to a category that is meaningful to the person using the data. Classification ideally assigns backscatter to species-level taxa, but includes classification to lower taxonomic-levels, trophic levels, or acoustic scattering types. Routine processes developed at each Science Center are still time consuming and not directly transferable to automated, real-time decision making that could greatly improve survey capabilities using autonomous platforms, and they do not currently take full advantage of emerging sources of wide-bandwidth technology across a full spectrum from low-frequencies to echosounders to acoustic-cameras. We will revolutionize echo classification by developing processing techniques and building a cloud-based framework that will promote development and implementation of advanced analytical methods to classify backscatter to the lowest taxonomic level possible in near-real time.",
+    "text": "Assemble training datasets from validated, historical echosounder and co-variate data (FY24-FY26)\nDeveloping advanced analytical methods for echo classification requires high-quality, validated (accurately attributed to lowest taxonomic level) acoustic data and associated co-variate data. Most Centers have accumulated these data for stock assessment, but not in formats that are useful for input to advanced analytical models. In addition, co-variate data (e.g., oceanographic data, eDNA, optics, net catches, life history) and acoustical characteristics of species of interest are critical to improving the effectiveness of echo classification.\nValidated acoustic data can be obtained from empirical observations and theoretical scattering models. Empirical observations consist of acoustic data synchronized and co-located with net catches, optical images, or other samples of the origins of acoustic backscatter. Theoretical scattering models provide species-specific predicted backscatter and target strength that are used to confirm empirical observations over a wide range of environmental conditions, anatomical features, and acoustic frequency spectra. We will assemble example training datasets from pre-existing data sources that includes ancillary data used for acoustic validation, which will form the basis for developing advanced analytical methods for echo classification.",
     "crumbs": [
       "AA SI Activities",
-      "Echo Classification"
+      "Validated Data"
     ]
   },
   {
-    "objectID": "content/netcdf4.html",
-    "href": "content/netcdf4.html",
-    "title": "netCDF4 Acoustic Data Format",
+    "objectID": "content/GCPworkstations.html",
+    "href": "content/GCPworkstations.html",
+    "title": "Google Cloud Workstations",
     "section": "",
-    "text": "The EK500, EK60/ER60, and EK80 echosounders recorded data in binary format. The format is proprietary and was developed by Kongsberg. Kongsberg freely distributes the format for anyone with interest in the data to develop software to read the data. The format differs among data acquisition systems and software, so it is important that the user know the source of the data. As part of this AA-SI, we will be primarily working with data that have been converted from the Kongsberg-format data (e.g., “.raw” files) to netCDF4 format by Echopype. We will be heavily invested in Echopype, so we will focus on the netCDF4 format.\nThe netCDF4 acoustic data follow several conventions: netCDF4, SONAR-netCDF4, and AcMeta."
+    "text": "For now we are using test workstations configured by NOAA OCIO. The only configuration we have available is the linux-base-32. This will change when we are able to create “permanent” workstations and we will update this page when we migrate.\n\n\n\nContact Josh Lee (joshua.lee@noaa.gov) and request a workstation.\nHe will send you a link to directions to set up a workstation.\nWe are using the Linux base 32 workstation for now. This is a very basic linux configuration, with not much installed. You will need to install software and packages.\n\n\n\n\n\nIn your web browser, go to link that was used to create the workstation.\nThe Google Cloud, Cloud Workstations page will open and your workstation will be under My workstations\nClick on the Start icon\nAfter the workstation starts, click on the cloud shell icon in the upper right, it looks like box with “&gt;_” in it.\n\nA terminal window will open on the lower part of the browser page. This is your “cloud shell” window.\nYou can make that a separate window by clicking on the box-with-arrow-pointing-to-NE icon in the upper right of the cloud-shell window.\n\nYou still need to open/launch the workstation.\nClick on the down arrow to the right of “LAUNCH” in the My workstations box\n\nSelect Connect using SSH…\nCopy the code by either highlighting all the code with your mouse or clicking on the two-overlayed-squares in the upper right corner.\n\nPaste the code in the cloud shell.\nIf you get a prompt with user@…, then you are in your workstation!\n\nYou will need to authorize each time by clicking on the “Authorize” icon when it appears.\n\nIf not, then most likely your home directory was not set correctly.\n\n&gt; pwd. IF it is “/”, the your home directory did not get set correctly.\n&gt; sudo chmod -R 777 /home/user\nExit the cloud shell by clicking on the “X” in the upper right corner of the cloud shell.\nStop the workstation by clicking on the solid square icon to the right of the “LAUNCH” icon\nRestart the workstation and connect via SSH (step 7)\nNow when you type “pwd”, you should get “/home/user”.\nIf not, contact Josh Lee.\n\n\n\n\n\nIt seems you need to install conda before you can install other programs and packages. 1. In the cloud shell follow these instructions: conda install 2. &gt; sudo wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh, where the https://… is from the conda website 3. &gt; bash Anaconda3-2024.06-1-Linux-x86_64.sh 4. &gt; cd anaconda3/bin 5. &gt; ./conda init 6. You will need to stop the cloudshell and restart it\n\n\n\nAfter you have conda installed, install pipx 1. The instructions are in pipx install 2. &gt; conda install conda-forge::pipx\n\n\n\nipython and ipython3 come with the conda environment. ipython3 is an interactive python kernel. It is the basis for Jupyter.\n\n\n\nTBD: I have not been successful at running this\n\n\n\nYou will need a series of Google Cloud packages to interact with the workstations and storage. 1. &gt; sudo apt-get update 2. gcloud CLI 1. &gt; sudo apt-get install google-cloud-cli 2. This can take a while 3. I first tried using the instructions but ran into errors. One problem was adding different repositories to the /etc/apt/sources.list.d/sources.list file (in Installation steps 1 and 2). 4. Install these as well: 1. &gt; pip install –upgrade google-cloud-vision 2. &gt; pip install –upgrade google-api-python-client 3. &gt; pip install –upgrade google-cloud-storage 4. &gt; pip install gcsfs 5. &gt; pip install –upgrade google-cloud-bigquery"
   },
   {
-    "objectID": "content/netcdf4.html#netcdf4-format",
-    "href": "content/netcdf4.html#netcdf4-format",
-    "title": "netCDF4 Acoustic Data Format",
-    "section": "netCDF4 Format",
-    "text": "netCDF4 Format\nAs NOAA Fisheries active acoustic data have become public through NOAA’s National Center for Environmental Information NCEI or other portals, the ability for those outside of the fisheries institutions to utilize the data for purposes other than fisheries stock assessments is quite arduous to impossible. To broaden the utility of active acoustic data, the fisheries acoustics community has developed open data formats so that the data can be read by any software language. Early attempts included the HAC format, but these have mostly been supplanted by netCDF4. The AA-SI will be using the netCDF4 convention."
+    "objectID": "content/GCPworkstations.html#create-a-test-workstation",
+    "href": "content/GCPworkstations.html#create-a-test-workstation",
+    "title": "Google Cloud Workstations",
+    "section": "",
+    "text": "Contact Josh Lee (joshua.lee@noaa.gov) and request a workstation.\nHe will send you a link to directions to set up a workstation.\nWe are using the Linux base 32 workstation for now. This is a very basic linux configuration, with not much installed. You will need to install software and packages."
   },
   {
-    "objectID": "content/netcdf4.html#netcdf4---ek80",
-    "href": "content/netcdf4.html#netcdf4---ek80",
-    "title": "netCDF4 Acoustic Data Format",
-    "section": "netCDF4 - EK80",
-    "text": "netCDF4 - EK80\nFor now we start with .raw data that have been converted to netCDF4 format. This is done using a variation of the code:\nimport echopype as ep\ned = open_raw(raw-format-filename, sonar_model='EK80')\ned.to_netcdf(save_path=output-filename)\nIn this case, we use “EK80” for the sonar_model because we used the EK80 to record the data. The output-filename will have a “.nc” extension.\n\nWe will use pathlib for our file paths.\nOpen the newly created netCDF4 file(s):\nimport echopype as ep\nimport pathlib as Path\n# list of file names\nfilenames = [Path(file1.nc), Path(file2.nc), ...]\n# \"ed\" is short for \"echo data\"\nedlist = []\nfor f in filenames:\n    edlist.append(ep.open_converted(str(f)))\n# combine the data files into one xarray data set\ned = ep.combine_echodata(edlist)\n“ed” is the echo data object. To see the contents of the object, type\ned\nYou will see the top-level headers for the data."
+    "objectID": "content/GCPworkstations.html#launch-a-workstation",
+    "href": "content/GCPworkstations.html#launch-a-workstation",
+    "title": "Google Cloud Workstations",
+    "section": "",
+    "text": "In your web browser, go to link that was used to create the workstation.\nThe Google Cloud, Cloud Workstations page will open and your workstation will be under My workstations\nClick on the Start icon\nAfter the workstation starts, click on the cloud shell icon in the upper right, it looks like box with “&gt;_” in it.\n\nA terminal window will open on the lower part of the browser page. This is your “cloud shell” window.\nYou can make that a separate window by clicking on the box-with-arrow-pointing-to-NE icon in the upper right of the cloud-shell window.\n\nYou still need to open/launch the workstation.\nClick on the down arrow to the right of “LAUNCH” in the My workstations box\n\nSelect Connect using SSH…\nCopy the code by either highlighting all the code with your mouse or clicking on the two-overlayed-squares in the upper right corner.\n\nPaste the code in the cloud shell.\nIf you get a prompt with user@…, then you are in your workstation!\n\nYou will need to authorize each time by clicking on the “Authorize” icon when it appears.\n\nIf not, then most likely your home directory was not set correctly.\n\n&gt; pwd. IF it is “/”, the your home directory did not get set correctly.\n&gt; sudo chmod -R 777 /home/user\nExit the cloud shell by clicking on the “X” in the upper right corner of the cloud shell.\nStop the workstation by clicking on the solid square icon to the right of the “LAUNCH” icon\nRestart the workstation and connect via SSH (step 7)\nNow when you type “pwd”, you should get “/home/user”.\nIf not, contact Josh Lee."
   },
   {
-    "objectID": "content/netcdf4.html#netcdf4---ek60",
-    "href": "content/netcdf4.html#netcdf4---ek60",
-    "title": "netCDF4 Acoustic Data Format",
-    "section": "netCDF4 - EK60",
-    "text": "netCDF4 - EK60"
+    "objectID": "content/GCPworkstations.html#install-conda",
+    "href": "content/GCPworkstations.html#install-conda",
+    "title": "Google Cloud Workstations",
+    "section": "",
+    "text": "It seems you need to install conda before you can install other programs and packages. 1. In the cloud shell follow these instructions: conda install 2. &gt; sudo wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh, where the https://… is from the conda website 3. &gt; bash Anaconda3-2024.06-1-Linux-x86_64.sh 4. &gt; cd anaconda3/bin 5. &gt; ./conda init 6. You will need to stop the cloudshell and restart it"
   },
   {
-    "objectID": "content/netcdf4.html#netcdf4---ek500",
-    "href": "content/netcdf4.html#netcdf4---ek500",
-    "title": "netCDF4 Acoustic Data Format",
-    "section": "netCDF4 - EK500",
-    "text": "netCDF4 - EK500"
+    "objectID": "content/GCPworkstations.html#install-pipx",
+    "href": "content/GCPworkstations.html#install-pipx",
+    "title": "Google Cloud Workstations",
+    "section": "",
+    "text": "After you have conda installed, install pipx 1. The instructions are in pipx install 2. &gt; conda install conda-forge::pipx"
+  },
+  {
+    "objectID": "content/GCPworkstations.html#ipython",
+    "href": "content/GCPworkstations.html#ipython",
+    "title": "Google Cloud Workstations",
+    "section": "",
+    "text": "ipython and ipython3 come with the conda environment. ipython3 is an interactive python kernel. It is the basis for Jupyter."
+  },
+  {
+    "objectID": "content/GCPworkstations.html#jupyter-lab",
+    "href": "content/GCPworkstations.html#jupyter-lab",
+    "title": "Google Cloud Workstations",
+    "section": "",
+    "text": "TBD: I have not been successful at running this"
+  },
+  {
+    "objectID": "content/GCPworkstations.html#install-google-cloud-packages",
+    "href": "content/GCPworkstations.html#install-google-cloud-packages",
+    "title": "Google Cloud Workstations",
+    "section": "",
+    "text": "You will need a series of Google Cloud packages to interact with the workstations and storage. 1. &gt; sudo apt-get update 2. gcloud CLI 1. &gt; sudo apt-get install google-cloud-cli 2. This can take a while 3. I first tried using the instructions but ran into errors. One problem was adding different repositories to the /etc/apt/sources.list.d/sources.list file (in Installation steps 1 and 2). 4. Install these as well: 1. &gt; pip install –upgrade google-cloud-vision 2. &gt; pip install –upgrade google-api-python-client 3. &gt; pip install –upgrade google-cloud-storage 4. &gt; pip install gcsfs 5. &gt; pip install –upgrade google-cloud-bigquery"
+  },
+  {
+    "objectID": "content/WhoWeAre.html",
+    "href": "content/WhoWeAre.html",
+    "title": "Meet the Team",
+    "section": "",
+    "text": "We are scientists from NOAA Fisheries Science Centers around the country including Northeast, Southeast, Southwest, Northwest, Alaska, and Pacific Islands, and NOAA’s Office of Science and Technology (OST) and NOAA’s National Center for Environmental Information (NCEI).\nWe partner with NOAA’s Office of Marine and Aviation Operations (OMAO), and Office of the Chief Information Officer (OCIO)\nWe are also working with data scientists from NOAA’s Cooperative Institutes including University of Colorado Boulder (CIRES), University of Washington (CICOES), and University of California (CIMEAS).\n\nTeam Members:\n\nMike Jech, NEFSC, SI Lead\nReka Domokos, PIFSC Rep\nElizabeth Phillips, NWFSC Rep\nJosiah Renfree, SWFSC Rep\nPatrick Ressler, AFSC Rep\nTimothy Rowell, SEFSC Rep\nCarrie Wall Bell, NCEI Rep\nDerek Bolser, OST Rep\nDavid Demer, OST Rep\nRobert Foy, Science Board Sponsor\nRick Methot, Science Board Sponsor\n\n\n\nCollaborators:\n\nWu-Jung Lee, University of Washington, Applied Physics Lab\nValentina Staneva, University of Washington, eScience Institute",
+    "crumbs": [
+      "Who We Are"
+    ]
+  },
+  {
+    "objectID": "content/KongsbergEK.html",
+    "href": "content/KongsbergEK.html",
+    "title": "Kongsberg EK Data Format",
+    "section": "",
+    "text": "Data formats for the Kongsberg EK echosounders have changed with each model and within models. While these formats are proprietary to the manufacturer, the formats are published for anyone to write custom software to read the data files. Almost all fisheries institutions that use the active acoustic data have custom-built software to read, process, and analyze the data, and in addition, many use a commercial software package, Echoview to read, process, and analyze the data.\n\n\nMore information on the EK80 .raw data format can be found here.\n\n\n\nMore information on the EK60 .raw data format can be found here.\n\n\n\nMore information on the EK500 data formats can be found here."
+  },
+  {
+    "objectID": "content/KongsbergEK.html#ek80-.raw-format",
+    "href": "content/KongsbergEK.html#ek80-.raw-format",
+    "title": "Kongsberg EK Data Format",
+    "section": "",
+    "text": "More information on the EK80 .raw data format can be found here."
+  },
+  {
+    "objectID": "content/KongsbergEK.html#ek60-.raw-format",
+    "href": "content/KongsbergEK.html#ek60-.raw-format",
+    "title": "Kongsberg EK Data Format",
+    "section": "",
+    "text": "More information on the EK60 .raw data format can be found here."
+  },
+  {
+    "objectID": "content/KongsbergEK.html#ek500-data-format",
+    "href": "content/KongsbergEK.html#ek500-data-format",
+    "title": "Kongsberg EK Data Format",
+    "section": "",
+    "text": "More information on the EK500 data formats can be found here."
   }
 ]

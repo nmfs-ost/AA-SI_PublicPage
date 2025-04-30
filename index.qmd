@@ -18,6 +18,6 @@ NOAA collects active acoustic data from an increasingly diverse number of crewed
 
 We are currently meeting on a bi-weekly basis and engaging with OMAO, contractors, and other collaborators regularly
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;ctz=Pacific%2FHonolulu&amp;showPrint=0&amp;src=bm9hYS5nb3ZfNjR2ZzdnN3IwMjhjZXZrNDZpdGhncTR2c29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D81B60" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no">
+<iframe src="https://calendar.google.com/calendar/embed?src=c_cc85073a8a0c8af360845b22f3d32b21aa8b80add5f07be7979cd5d14531bd1b%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 </iframe>

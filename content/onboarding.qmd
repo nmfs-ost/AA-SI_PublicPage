@@ -21,11 +21,9 @@ Hopefully be able to start doing your job :)))
 
 ### Things to configure
 
-Here are some onboarding guidelines so you know you are on the right track: [Onboarding Guidelines](https://docs.google.com/document/d/1ZCmSwokU0IKdIqUIcqaIzvr2q3K0XeuAtINpWlVVNQw/edit?usp=sharing)
+Here are some onboarding guidelines so you know you are on the right track: [Onboarding Guidelines](https://docs.google.com/document/d/12mKm5L2QYG5KNq3BLzqmOghY_q5v30HjlCyDKJd1-k8/edit?usp=sharing)
 
 Another aspect of being a NOAA employee includes updating your timesheet in GovTA.
-
-Instructions for configuration can be found here: [Timesheet setup for Students](https://drive.google.com/file/d/1nrxWaun2OK8dSWKtI2cr7XIeCFyVXVYA/view?usp=sharing)
 
 ### Training
 

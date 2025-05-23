@@ -1,31 +1,60 @@
 [
   {
-    "objectID": "content/KongsbergEK.html",
-    "href": "content/KongsbergEK.html",
-    "title": "Kongsberg EK Data Format",
+    "objectID": "content/ActivityA.html",
+    "href": "content/ActivityA.html",
+    "title": "Activity A - Echo Classification",
     "section": "",
-    "text": "Data formats for the Kongsberg EK echosounders have changed with each model and within models. While these formats are proprietary to the manufacturer, the formats are published for anyone to write custom software to read the data files. Almost all fisheries institutions that use the active acoustic data have custom-built software to read, process, and analyze the data, and in addition, many use a commercial software package, Echoview to read, process, and analyze the data.\n\n\nMore information on the EK80 .raw data format can be found here.\n\n\n\nMore information on the EK60 .raw data format can be found here.\n\n\n\nMore information on the EK500 data formats can be found here."
+    "text": "Develop advanced analytical methods for echo classification\nEcho classification is the process of assigning acoustic backscatter to a category that is meaningful to the person using the data. Classification ideally assigns backscatter to species-level taxa, but includes classification to lower taxonomic-levels, trophic levels, or acoustic scattering types. Routine processes developed at each Science Center are still time consuming and not directly transferable to automated, real-time decision making that could greatly improve survey capabilities using autonomous platforms, and they do not currently take full advantage of emerging sources of wide-bandwidth technology across a full spectrum from low-frequencies to echosounders to acoustic-cameras. We will revolutionize echo classification by developing processing techniques and building a cloud-based framework that will promote development and implementation of advanced analytical methods to classify backscatter to the lowest taxonomic level possible in near-real time.",
+    "crumbs": [
+      "AA SI Activities",
+      "Echo Classification"
+    ]
   },
   {
-    "objectID": "content/KongsbergEK.html#ek80-.raw-format",
-    "href": "content/KongsbergEK.html#ek80-.raw-format",
-    "title": "Kongsberg EK Data Format",
+    "objectID": "content/netcdf4.html",
+    "href": "content/netcdf4.html",
+    "title": "netCDF4 Acoustic Data Format",
     "section": "",
-    "text": "More information on the EK80 .raw data format can be found here."
+    "text": "The EK500, EK60/ER60, and EK80 echosounders recorded data in binary format. The format is proprietary and was developed by Kongsberg. Kongsberg freely distributes the format for anyone with interest in the data to develop software to read the data. The format differs among data acquisition systems and software, so it is important that the user know the source of the data. As part of this AA-SI, we will be primarily working with data that have been converted from the Kongsberg-format data (e.g., “.raw” files) to netCDF4 format by Echopype. We will be heavily invested in Echopype, so we will focus on the netCDF4 format.\nThe netCDF4 acoustic data follow several conventions: netCDF4, SONAR-netCDF4, and AcMeta."
   },
   {
-    "objectID": "content/KongsbergEK.html#ek60-.raw-format",
-    "href": "content/KongsbergEK.html#ek60-.raw-format",
-    "title": "Kongsberg EK Data Format",
-    "section": "",
-    "text": "More information on the EK60 .raw data format can be found here."
+    "objectID": "content/netcdf4.html#netcdf4-format",
+    "href": "content/netcdf4.html#netcdf4-format",
+    "title": "netCDF4 Acoustic Data Format",
+    "section": "netCDF4 Format",
+    "text": "netCDF4 Format\nAs NOAA Fisheries active acoustic data have become public through NOAA’s National Center for Environmental Information NCEI or other portals, the ability for those outside of the fisheries institutions to utilize the data for purposes other than fisheries stock assessments is quite arduous to impossible. To broaden the utility of active acoustic data, the fisheries acoustics community has developed open data formats so that the data can be read by any software language. Early attempts included the HAC format, but these have mostly been supplanted by netCDF4. The AA-SI will be using the netCDF4 convention."
   },
   {
-    "objectID": "content/KongsbergEK.html#ek500-data-format",
-    "href": "content/KongsbergEK.html#ek500-data-format",
-    "title": "Kongsberg EK Data Format",
+    "objectID": "content/netcdf4.html#netcdf4---ek80",
+    "href": "content/netcdf4.html#netcdf4---ek80",
+    "title": "netCDF4 Acoustic Data Format",
+    "section": "netCDF4 - EK80",
+    "text": "netCDF4 - EK80\nFor now we start with .raw data that have been converted to netCDF4 format. This is done using a variation of the code:\nimport echopype as ep\ned = open_raw(raw-format-filename, sonar_model='EK80')\ned.to_netcdf(save_path=output-filename)\nIn this case, we use “EK80” for the sonar_model because we used the EK80 to record the data. The output-filename will have a “.nc” extension.\n\nWe will use pathlib for our file paths.\nOpen the newly created netCDF4 file(s):\nimport echopype as ep\nimport pathlib as Path\n# list of file names\nfilenames = [Path(file1.nc), Path(file2.nc), ...]\n# \"ed\" is short for \"echo data\"\nedlist = []\nfor f in filenames:\n    edlist.append(ep.open_converted(str(f)))\n# combine the data files into one xarray data set\ned = ep.combine_echodata(edlist)\n“ed” is the echo data object. To see the contents of the object, type\ned\nYou will see the top-level headers for the data."
+  },
+  {
+    "objectID": "content/netcdf4.html#netcdf4---ek60",
+    "href": "content/netcdf4.html#netcdf4---ek60",
+    "title": "netCDF4 Acoustic Data Format",
+    "section": "netCDF4 - EK60",
+    "text": "netCDF4 - EK60"
+  },
+  {
+    "objectID": "content/netcdf4.html#netcdf4---ek500",
+    "href": "content/netcdf4.html#netcdf4---ek500",
+    "title": "netCDF4 Acoustic Data Format",
+    "section": "netCDF4 - EK500",
+    "text": "netCDF4 - EK500"
+  },
+  {
+    "objectID": "content/ActivityB.html",
+    "href": "content/ActivityB.html",
+    "title": "Activity B - Validated Data",
     "section": "",
-    "text": "More information on the EK500 data formats can be found here."
+    "text": "Assemble training datasets from validated, historical echosounder and co-variate data (FY24-FY26)\nDeveloping advanced analytical methods for echo classification requires high-quality, validated (accurately attributed to lowest taxonomic level) acoustic data and associated co-variate data. Most Centers have accumulated these data for stock assessment, but not in formats that are useful for input to advanced analytical models. In addition, co-variate data (e.g., oceanographic data, eDNA, optics, net catches, life history) and acoustical characteristics of species of interest are critical to improving the effectiveness of echo classification.\nValidated acoustic data can be obtained from empirical observations and theoretical scattering models. Empirical observations consist of acoustic data synchronized and co-located with net catches, optical images, or other samples of the origins of acoustic backscatter. Theoretical scattering models provide species-specific predicted backscatter and target strength that are used to confirm empirical observations over a wide range of environmental conditions, anatomical features, and acoustic frequency spectra. We will assemble example training datasets from pre-existing data sources that includes ancillary data used for acoustic validation, which will form the basis for developing advanced analytical methods for echo classification.",
+    "crumbs": [
+      "AA SI Activities",
+      "Validated Data"
+    ]
   },
   {
     "objectID": "content/GCPworkstations.html",
@@ -84,39 +113,52 @@
     "text": "You will need a series of Google Cloud packages to interact with the workstations and storage. 1. &gt; sudo apt-get update 2. gcloud CLI 1. &gt; sudo apt-get install google-cloud-cli 2. This can take a while 3. I first tried using the instructions but ran into errors. One problem was adding different repositories to the /etc/apt/sources.list.d/sources.list file (in Installation steps 1 and 2). 4. Install these as well: 1. &gt; pip install –upgrade google-cloud-vision 2. &gt; pip install –upgrade google-api-python-client 3. &gt; pip install –upgrade google-cloud-storage 4. &gt; pip install gcsfs 5. &gt; pip install –upgrade google-cloud-bigquery"
   },
   {
-    "objectID": "content/netcdf4.html",
-    "href": "content/netcdf4.html",
-    "title": "netCDF4 Acoustic Data Format",
+    "objectID": "content/WhoWeAre.html",
+    "href": "content/WhoWeAre.html",
+    "title": "Meet the Team",
     "section": "",
-    "text": "The EK500, EK60/ER60, and EK80 echosounders recorded data in binary format. The format is proprietary and was developed by Kongsberg. Kongsberg freely distributes the format for anyone with interest in the data to develop software to read the data. The format differs among data acquisition systems and software, so it is important that the user know the source of the data. As part of this AA-SI, we will be primarily working with data that have been converted from the Kongsberg-format data (e.g., “.raw” files) to netCDF4 format by Echopype. We will be heavily invested in Echopype, so we will focus on the netCDF4 format.\nThe netCDF4 acoustic data follow several conventions: netCDF4, SONAR-netCDF4, and AcMeta."
+    "text": "We are scientists from NOAA Fisheries Science Centers around the country including Northeast, Southeast, Southwest, Northwest, Alaska, and Pacific Islands, and NOAA’s Office of Science and Technology (OST) and NOAA’s National Center for Environmental Information (NCEI).\nWe partner with NOAA’s Office of Marine and Aviation Operations (OMAO), and Office of the Chief Information Officer (OCIO)\nWe are also working with data scientists from NOAA’s Cooperative Institutes including University of Colorado Boulder (CIRES), University of Washington (CICOES), and University of California (CIMEAS).\n\nTeam Members:\n\nMike Jech, NEFSC, SI Lead\nReka Domokos, PIFSC Rep\nElizabeth Phillips, NWFSC Rep\nJosiah Renfree, SWFSC Rep\nPatrick Ressler, AFSC Rep\nTimothy Rowell, SEFSC Rep\nCarrie Wall Bell, NCEI Rep\nDerek Bolser, OST Rep\nDavid Demer, OST Rep\nRobert Foy, Science Board Sponsor\nRick Methot, Science Board Sponsor\n\n\n\nCollaborators:\n\nWu-Jung Lee, University of Washington, Applied Physics Lab\nValentina Staneva, University of Washington, eScience Institute",
+    "crumbs": [
+      "Who We Are"
+    ]
   },
   {
-    "objectID": "content/netcdf4.html#netcdf4-format",
-    "href": "content/netcdf4.html#netcdf4-format",
-    "title": "netCDF4 Acoustic Data Format",
-    "section": "netCDF4 Format",
-    "text": "netCDF4 Format\nAs NOAA Fisheries active acoustic data have become public through NOAA’s National Center for Environmental Information NCEI or other portals, the ability for those outside of the fisheries institutions to utilize the data for purposes other than fisheries stock assessments is quite arduous to impossible. To broaden the utility of active acoustic data, the fisheries acoustics community has developed open data formats so that the data can be read by any software language. Early attempts included the HAC format, but these have mostly been supplanted by netCDF4. The AA-SI will be using the netCDF4 convention."
+    "objectID": "content/KongsbergEK.html",
+    "href": "content/KongsbergEK.html",
+    "title": "Kongsberg EK Data Format",
+    "section": "",
+    "text": "Data formats for the Kongsberg EK echosounders have changed with each model and within models. While these formats are proprietary to the manufacturer, the formats are published for anyone to write custom software to read the data files. Almost all fisheries institutions that use the active acoustic data have custom-built software to read, process, and analyze the data, and in addition, many use a commercial software package, Echoview to read, process, and analyze the data.\n\n\nMore information on the EK80 .raw data format can be found here.\n\n\n\nMore information on the EK60 .raw data format can be found here.\n\n\n\nMore information on the EK500 data formats can be found here."
   },
   {
-    "objectID": "content/netcdf4.html#netcdf4---ek80",
-    "href": "content/netcdf4.html#netcdf4---ek80",
-    "title": "netCDF4 Acoustic Data Format",
-    "section": "netCDF4 - EK80",
-    "text": "netCDF4 - EK80\nFor now we start with .raw data that have been converted to netCDF4 format. This is done using a variation of the code:\nimport echopype as ep\ned = open_raw(raw-format-filename, sonar_model='EK80')\ned.to_netcdf(save_path=output-filename)\nIn this case, we use “EK80” for the sonar_model because we used the EK80 to record the data. The output-filename will have a “.nc” extension.\n\nWe will use pathlib for our file paths.\nOpen the newly created netCDF4 file(s):\nimport echopype as ep\nimport pathlib as Path\n# list of file names\nfilenames = [Path(file1.nc), Path(file2.nc), ...]\n# \"ed\" is short for \"echo data\"\nedlist = []\nfor f in filenames:\n    edlist.append(ep.open_converted(str(f)))\n# combine the data files into one xarray data set\ned = ep.combine_echodata(edlist)\n“ed” is the echo data object. To see the contents of the object, type\ned\nYou will see the top-level headers for the data."
+    "objectID": "content/KongsbergEK.html#ek80-.raw-format",
+    "href": "content/KongsbergEK.html#ek80-.raw-format",
+    "title": "Kongsberg EK Data Format",
+    "section": "",
+    "text": "More information on the EK80 .raw data format can be found here."
   },
   {
-    "objectID": "content/netcdf4.html#netcdf4---ek60",
-    "href": "content/netcdf4.html#netcdf4---ek60",
-    "title": "netCDF4 Acoustic Data Format",
-    "section": "netCDF4 - EK60",
-    "text": "netCDF4 - EK60"
+    "objectID": "content/KongsbergEK.html#ek60-.raw-format",
+    "href": "content/KongsbergEK.html#ek60-.raw-format",
+    "title": "Kongsberg EK Data Format",
+    "section": "",
+    "text": "More information on the EK60 .raw data format can be found here."
   },
   {
-    "objectID": "content/netcdf4.html#netcdf4---ek500",
-    "href": "content/netcdf4.html#netcdf4---ek500",
-    "title": "netCDF4 Acoustic Data Format",
-    "section": "netCDF4 - EK500",
-    "text": "netCDF4 - EK500"
+    "objectID": "content/KongsbergEK.html#ek500-data-format",
+    "href": "content/KongsbergEK.html#ek500-data-format",
+    "title": "Kongsberg EK Data Format",
+    "section": "",
+    "text": "More information on the EK500 data formats can be found here."
+  },
+  {
+    "objectID": "index.html#aa-si-meeting-schedule",
+    "href": "index.html#aa-si-meeting-schedule",
+    "title": "Active Acoustics Strategic Initiative",
+    "section": "AA SI Meeting Schedule",
+    "text": "AA SI Meeting Schedule\nWe are currently meeting on a bi-weekly basis and engaging with OMAO, contractors, and other collaborators regularly",
+    "crumbs": [
+      "Welcome"
+    ]
   },
   {
     "objectID": "content/ActivityC.html",
@@ -130,90 +172,13 @@
     ]
   },
   {
-    "objectID": "content/ActivityB.html",
-    "href": "content/ActivityB.html",
-    "title": "Activity B - Validated Data",
-    "section": "",
-    "text": "Assemble training datasets from validated, historical echosounder and co-variate data (FY24-FY26)\nDeveloping advanced analytical methods for echo classification requires high-quality, validated (accurately attributed to lowest taxonomic level) acoustic data and associated co-variate data. Most Centers have accumulated these data for stock assessment, but not in formats that are useful for input to advanced analytical models. In addition, co-variate data (e.g., oceanographic data, eDNA, optics, net catches, life history) and acoustical characteristics of species of interest are critical to improving the effectiveness of echo classification.\nValidated acoustic data can be obtained from empirical observations and theoretical scattering models. Empirical observations consist of acoustic data synchronized and co-located with net catches, optical images, or other samples of the origins of acoustic backscatter. Theoretical scattering models provide species-specific predicted backscatter and target strength that are used to confirm empirical observations over a wide range of environmental conditions, anatomical features, and acoustic frequency spectra. We will assemble example training datasets from pre-existing data sources that includes ancillary data used for acoustic validation, which will form the basis for developing advanced analytical methods for echo classification.",
-    "crumbs": [
-      "AA SI Activities",
-      "Validated Data"
-    ]
-  },
-  {
-    "objectID": "content/ActivityA.html",
-    "href": "content/ActivityA.html",
-    "title": "Activity A - Echo Classification",
-    "section": "",
-    "text": "Develop advanced analytical methods for echo classification\nEcho classification is the process of assigning acoustic backscatter to a category that is meaningful to the person using the data. Classification ideally assigns backscatter to species-level taxa, but includes classification to lower taxonomic-levels, trophic levels, or acoustic scattering types. Routine processes developed at each Science Center are still time consuming and not directly transferable to automated, real-time decision making that could greatly improve survey capabilities using autonomous platforms, and they do not currently take full advantage of emerging sources of wide-bandwidth technology across a full spectrum from low-frequencies to echosounders to acoustic-cameras. We will revolutionize echo classification by developing processing techniques and building a cloud-based framework that will promote development and implementation of advanced analytical methods to classify backscatter to the lowest taxonomic level possible in near-real time.",
-    "crumbs": [
-      "AA SI Activities",
-      "Echo Classification"
-    ]
-  },
-  {
-    "objectID": "index.html#aa-si-meeting-schedule",
-    "href": "index.html#aa-si-meeting-schedule",
-    "title": "Active Acoustics Strategic Initiative",
-    "section": "AA SI Meeting Schedule",
-    "text": "AA SI Meeting Schedule\nWe are currently meeting on a bi-weekly basis and engaging with OMAO, contractors, and other collaborators regularly",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "content/WhoWeAre.html",
-    "href": "content/WhoWeAre.html",
-    "title": "Meet the Team",
-    "section": "",
-    "text": "We are scientists from NOAA Fisheries Science Centers around the country including Northeast, Southeast, Southwest, Northwest, Alaska, and Pacific Islands, and NOAA’s Office of Science and Technology (OST) and NOAA’s National Center for Environmental Information (NCEI).\nWe partner with NOAA’s Office of Marine and Aviation Operations (OMAO), and Office of the Chief Information Officer (OCIO)\nWe are also working with data scientists from NOAA’s Cooperative Institutes including University of Colorado Boulder (CIRES), University of Washington (CICOES), and University of California (CIMEAS).\n\nTeam Members:\n\nMike Jech, NEFSC, SI Lead\nReka Domokos, PIFSC Rep\nElizabeth Phillips, NWFSC Rep\nJosiah Renfree, SWFSC Rep\nPatrick Ressler, AFSC Rep\nTimothy Rowell, SEFSC Rep\nCarrie Wall Bell, NCEI Rep\nDerek Bolser, OST Rep\nDavid Demer, OST Rep\nRobert Foy, Science Board Sponsor\nRick Methot, Science Board Sponsor\n\n\n\nCollaborators:\n\nWu-Jung Lee, University of Washington, Applied Physics Lab\nValentina Staneva, University of Washington, eScience Institute",
-    "crumbs": [
-      "Who We Are"
-    ]
-  },
-  {
-    "objectID": "content/GCPstorage.html",
-    "href": "content/GCPstorage.html",
-    "title": "Google Cloud Storage",
-    "section": "",
-    "text": "Our Google workspace has computing environments (i.e., workstations) and a storage bucket. These have been set up by Josh Lee (joshua.lee@noaa.gov) and Ed Rodgers (ed.rodgers@noaa.gov) from NOAA’s Cloud Program Office. Our intitial workstations were “test” stations and we are in the process of building our “permanent” stations. This document provides details on how to set up the workstation and connect to the storage bucket."
-  },
-  {
-    "objectID": "content/GCPstorage.html#background",
-    "href": "content/GCPstorage.html#background",
-    "title": "Google Cloud Storage",
-    "section": "",
-    "text": "Our Google workspace has computing environments (i.e., workstations) and a storage bucket. These have been set up by Josh Lee (joshua.lee@noaa.gov) and Ed Rodgers (ed.rodgers@noaa.gov) from NOAA’s Cloud Program Office. Our intitial workstations were “test” stations and we are in the process of building our “permanent” stations. This document provides details on how to set up the workstation and connect to the storage bucket."
-  },
-  {
-    "objectID": "content/ActivityD.html",
-    "href": "content/ActivityD.html",
-    "title": "Activity D - Satellite Communications",
-    "section": "",
-    "text": "Satellite Communication:\nWe will install additional hardware and pay a monthly fee to use Starlink on OMAO platforms for scientific purposes. We will demonstrate a use case in the IRA period, after which leadership can evaluate the utility of continuing to fund high-bandwidth satellite communication to deployed acoustic instruments and near real time data sharing.",
-    "crumbs": [
-      "AA SI Activities",
-      "Satellite Communications"
-    ]
-  },
-  {
     "objectID": "content/onboarding.html",
     "href": "content/onboarding.html",
     "title": "New Employee Onboarding",
     "section": "",
-    "text": "What to expect in the first 1 to 7 days\nPatience is key in the first week. Having to go through approvals, appointments and introductions during your initial days may be overwhelming and delays getting fully onboarded are expected. However, as each day passes you will get your NOAA credentials - which will get you access to the building, your NOAA computer and then sort through the necessary access to servers, and get up to speed on the acoustic data you’ll be working with at NOAA and CIRES. There are required training courses from CU and NOAA that you will take online (see below) and several CU forms to complete that the CU team will walk you through.\nIn short, It’s a lot of paperwork, learning, waiting, and a bit of doing.\n\n\nWhat to expect in the first month\nAs access to all things NOAA and CIRES are worked out, you should be well on your way to learning the tasks of the job, feeling integrated with the team and meeting others in the office.\nThroughout this month, you will be given a lot of information and finding ways to document it, organize, and reference it will be very beneficial. The team has a couple of tools along with existing documentation - your help using these tools, providing feedback for what could be better, and additional information that is needed are always appreciated.\nHopefully be able to start doing your job :)))\n\n\nThings to configure\nHere are some onboarding guidelines so you know you are on the right track: Onboarding Guidelines\nAnother aspect of being a NOAA employee includes updating your timesheet in GovTA.\n\n\nTraining\nAs a NOAA and CU Employee, there will also be several training courses that you will be required to complete:\nNOAA training: NOAA IT Security Awareness\nNOAA training: Records Management Course 101\nCU training: Discrimination and Harassment\nCU training: Introduction to Export Controls\n\n\nNOAA Enterprise GitHub\nThe AA-SI GitHub site is public, but to work with the site (e.g., edit pages) a person needs to have a NOAA GitHub Enterprise License. To start, follow this link to fill out the request form, learn more about NOAA GitHub Enterprise Licenses, and find out Center-specific procedures.\nFor example, at the NEFSC, the enterprise licenses are managed by the IT division. To get an enterprise license submit a helpdesk ticket. You can submit a general ticket, or click on “Applications” on the left, and then “GitHub Support Request” on the right for a potentially quicker response.",
+    "text": "What to expect in the first 1 to 7 days\nPatience is key in the first week. Having to go through approvals, appointments and introductions during your initial days may be overwhelming and delays getting fully onboarded are expected. However, as each day passes you will get your NOAA credentials - which will get you access to the building, your NOAA computer and then sort through the necessary access to servers, and get up to speed on the acoustic data you’ll be working with at NOAA and CIRES. There are required training courses from CU and NOAA that you will take online (see below) and several CU forms to complete that the CU team will walk you through.\nIn short, It’s a lot of paperwork, learning, waiting, and a bit of doing.\n\n\nWhat to expect in the first month\nAs access to all things NOAA and CIRES are worked out, you should be well on your way to learning the tasks of the job, feeling integrated with the team and meeting others in the office and virtually.\nThroughout this month, you will be given a lot of information and finding ways to document it, organize, and reference it will be very beneficial. The team has a couple of tools along with existing documentation - your help using these tools, providing feedback for what could be better, and additional information that is needed are always appreciated.\nHopefully be able to start doing your job :)))\n\n\nThings to configure\nHere are some onboarding guidelines so you know you are on the right track: Onboarding Guidelines\n\n\nTraining\nAs a NOAA and CU Employee, there will also be several training courses that you will be required to complete:\nNOAA training: NOAA IT Security Awareness\nNOAA training: Records Management Course 101\nCU training: Discrimination and Harassment\nCU training: Introduction to Export Controls\n\n\nNOAA Enterprise GitHub\nThe AA-SI GitHub site is public, but to access the repositories (e.g., push/pull) a person needs to have a NOAA GitHub Enterprise License. To start, follow this link to fill out the request form, learn more about NOAA GitHub Enterprise Licenses, and find out Center-specific procedures.",
     "crumbs": [
       "Onboarding"
-    ]
-  },
-  {
-    "objectID": "content/activities.html",
-    "href": "content/activities.html",
-    "title": "AA SI Activities",
-    "section": "",
-    "text": "We have four unique but related activities within the AA SI, each focusing on a different aspect of our vision:\n\nActivity A: Echo Classification\nDevelop advanced analytical methods for echo classification\n\n\nActivity B: Validated Data\nAssemble training datasets from validated, historical echo sounder and co-variate data\n\n\nActivity C: Cloud Storage and Computing\nProcure cloud storage and computing\n\n\nActivity D: Satellite Communications\nProcure high-bandwidth satellite communications\n\n\nFinally, we aim to continue testing, refining, and implementing these automated echo classification tools in support of reducing bias and improving efficiencies in NOAA Fisheries stock assessments",
-    "crumbs": [
-      "AA SI Activities"
     ]
   },
   {
@@ -314,6 +279,41 @@
     "text": "Pelagic Habitat Data\nFind out more about the pelagic habitat data here.",
     "crumbs": [
       "Background Material"
+    ]
+  },
+  {
+    "objectID": "content/GCPstorage.html",
+    "href": "content/GCPstorage.html",
+    "title": "Google Cloud Storage",
+    "section": "",
+    "text": "Our Google workspace has computing environments (i.e., workstations) and a storage bucket. These have been set up by Josh Lee (joshua.lee@noaa.gov) and Ed Rodgers (ed.rodgers@noaa.gov) from NOAA’s Cloud Program Office. Our intitial workstations were “test” stations and we are in the process of building our “permanent” stations. This document provides details on how to set up the workstation and connect to the storage bucket."
+  },
+  {
+    "objectID": "content/GCPstorage.html#background",
+    "href": "content/GCPstorage.html#background",
+    "title": "Google Cloud Storage",
+    "section": "",
+    "text": "Our Google workspace has computing environments (i.e., workstations) and a storage bucket. These have been set up by Josh Lee (joshua.lee@noaa.gov) and Ed Rodgers (ed.rodgers@noaa.gov) from NOAA’s Cloud Program Office. Our intitial workstations were “test” stations and we are in the process of building our “permanent” stations. This document provides details on how to set up the workstation and connect to the storage bucket."
+  },
+  {
+    "objectID": "content/activities.html",
+    "href": "content/activities.html",
+    "title": "AA SI Activities",
+    "section": "",
+    "text": "We have four unique but related activities within the AA SI, each focusing on a different aspect of our vision:\n\nActivity A: Echo Classification\nDevelop advanced analytical methods for echo classification\n\n\nActivity B: Validated Data\nAssemble training datasets from validated, historical echo sounder and co-variate data\n\n\nActivity C: Cloud Storage and Computing\nProcure cloud storage and computing\n\n\nActivity D: Satellite Communications\nProcure high-bandwidth satellite communications\n\n\nFinally, we aim to continue testing, refining, and implementing these automated echo classification tools in support of reducing bias and improving efficiencies in NOAA Fisheries stock assessments",
+    "crumbs": [
+      "AA SI Activities"
+    ]
+  },
+  {
+    "objectID": "content/ActivityD.html",
+    "href": "content/ActivityD.html",
+    "title": "Activity D - Satellite Communications",
+    "section": "",
+    "text": "Satellite Communication:\nWe will install additional hardware and pay a monthly fee to use Starlink on OMAO platforms for scientific purposes. We will demonstrate a use case in the IRA period, after which leadership can evaluate the utility of continuing to fund high-bandwidth satellite communication to deployed acoustic instruments and near real time data sharing.",
+    "crumbs": [
+      "AA SI Activities",
+      "Satellite Communications"
     ]
   }
 ]

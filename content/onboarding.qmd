@@ -13,7 +13,7 @@ In short, It's a lot of paperwork, learning, waiting, and a bit of doing.
 
 ### What to expect in the first month
 
-As access to all things NOAA and CIRES are worked out, you should be well on your way to learning the tasks of the job, feeling integrated with the team and meeting others in the office.
+As access to all things NOAA and CIRES are worked out, you should be well on your way to learning the tasks of the job, feeling integrated with the team and meeting others in the office and virtually.
 
 Throughout this month, you will be given a lot of information and finding ways to document it, organize, and reference it will be very beneficial. The team has a couple of tools along with existing documentation - your help using these tools, providing feedback for what could be better, and additional information that is needed are always appreciated.
 
@@ -22,8 +22,6 @@ Hopefully be able to start doing your job :)))
 ### Things to configure
 
 Here are some onboarding guidelines so you know you are on the right track: [Onboarding Guidelines](https://docs.google.com/document/d/12mKm5L2QYG5KNq3BLzqmOghY_q5v30HjlCyDKJd1-k8/edit?usp=sharing)
-
-Another aspect of being a NOAA employee includes updating your timesheet in GovTA.
 
 ### Training
 
@@ -39,8 +37,4 @@ CU training: Introduction to Export Controls
 
 # NOAA Enterprise GitHub
 
-The AA-SI GitHub site is public, but to work with the site (e.g., edit pages) a person needs to have a NOAA GitHub Enterprise License.
-To start, follow this [link](https://github.com/enterprises/noaa-nmfs) to fill out the request form, learn more about NOAA GitHub Enterprise Licenses, and find out Center-specific procedures. 
-
-For example, at the **NEFSC**, the enterprise licenses are managed by the IT division. To get an enterprise license submit a helpdesk ticket. You can submit a general ticket, or click on "Applications" on the left, and then "GitHub Support Request" on the right for a potentially quicker response.
-
+The AA-SI GitHub site is public, but to access the [repositories](https://github.com/orgs/nmfs-ost/repositories?q=AA) (e.g., push/pull) a person needs to have a NOAA GitHub Enterprise License. To start, follow this [link](https://github.com/enterprises/noaa-nmfs) to fill out the request form, learn more about NOAA GitHub Enterprise Licenses, and find out Center-specific procedures.

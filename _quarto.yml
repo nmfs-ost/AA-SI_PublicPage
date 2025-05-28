@@ -35,6 +35,8 @@ website:
         text: Welcome
       - href: content/WhoWeAre.qmd
         text: Who We Are
+      - href: content/onboarding.qmd
+        text: New Employee Onboarding
       - section: content/activities.qmd
         contents: 
           - href: content/ActivityA.qmd
@@ -45,8 +47,6 @@ website:
             text: Cloud Storage and Computing
           - href: content/ActivityD.qmd
             text: Satellite Communications
-      - href: content/onboarding.qmd
-        text: Onboarding
       - href: content/background.qmd
         text: Background Material
 

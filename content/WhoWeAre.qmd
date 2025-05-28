@@ -2,11 +2,11 @@
 title: Meet the Team
 ---
 
-We are scientists from [NOAA Fisheries Science Centers](https://www.fisheries.noaa.gov/contact-directory/science-centers) around the country including Northeast, Southeast, Southwest, Northwest, Alaska, and Pacific Islands, and NOAA's Office of Science and Technology ([OST](https://www.fisheries.noaa.gov/about/office-science-and-technology)) and NOAA's National Center for Environmental Information ([NCEI](https://www.ncei.noaa.gov/about-us)).
+We are scientists from [NOAA Fisheries Science Centers](https://www.fisheries.noaa.gov/contact-directory/science-centers) around the country including Northeast, Southeast, Southwest, Northwest, Alaska, and Pacific Islands, NOAA's Office of Science and Technology ([OST](https://www.fisheries.noaa.gov/about/office-science-and-technology)) and NOAA's National Center for Environmental Information ([NCEI](https://www.ncei.noaa.gov/about-us)).
 
-We partner with NOAA's Office of Marine and Aviation Operations ([OMAO](https://www.omao.noaa.gov/about)), and Office of the Chief Information Officer ([OCIO](https://www.noaa.gov/organization/information-technology/about-ocio))
+We are partnering with NOAA's Office of Marine and Aviation Operations ([OMAO](https://www.omao.noaa.gov/about)), and Office of the Chief Information Officer ([OCIO](https://www.noaa.gov/organization/information-technology/about-ocio)) to advance "ship-to-shore" data capabilities including cloud storage and cloud computing.
 
-We are also working with data scientists from NOAA's Cooperative Institutes including University of Colorado Boulder ([CIRES](https://cires.colorado.edu/about)), University of Washington ([CICOES](https://cicoes.uw.edu/about/)), and University of California ([CIMEAS](https://cimeas.ucsd.edu/about/)).
+We are also working with data analysts and scientists from NOAA's Cooperative Institutes including University of Colorado Boulder ([CIRES](https://cires.colorado.edu/about)), University of Washington ([CICOES](https://cicoes.uw.edu/about/)), and University of California ([CIMEAS](https://cimeas.ucsd.edu/about/)).
 
 ### Team Members:
 
@@ -19,10 +19,17 @@ We are also working with data scientists from NOAA's Cooperative Institutes incl
 -   Carrie Wall Bell, NCEI Rep
 -   Derek Bolser, OST Rep
 -   David Demer, OST Rep
--   Robert Foy, Science Board Sponsor
--   Rick Methot, Science Board Sponsor
+-   Robert Foy, NOAA Science Board Sponsor
+-   Rick Methot, NOAA Science Board Sponsor
 
 ### Collaborators:
 
 -   Wu-Jung Lee, University of Washington, Applied Physics Lab
 -   Valentina Staneva, University of Washington, eScience Institute
+-   Chris Bassett, University of Washington, Applied Physics Lab
+-   Mike Ryan, contractor with NEFSC
+-   Monireh 'Niki' Dabaghchian, contractor with PIFSC
+-   Dominic Bashford, affiliate with NWFSC
+-   Elias Capriles, affiliate with SWFSC
+-   Brett Layman, affiliate with NEFSC
+-   Allison White, affiliate with SEFSC

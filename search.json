@@ -186,7 +186,7 @@
     "href": "content/background.html",
     "title": "Background Materials",
     "section": "",
-    "text": "The goal of the Active Acoustics Strategic Initiative (AA-SI) includes organizing and standardizing multi-frequency and wide-bandwidth echosounder data to enable efficient data processing and analysis. We provide some background information on how active acoustics are used to study fish and zooplankton, the types of equipment and data formats commonly employed, and requirements for data standarization.",
+    "text": "The goal of the Active Acoustics Strategic Initiative (AA-SI) includes organizing and standardizing multi-frequency and wide-bandwidth echosounder data to enable efficient data processing and analysis in a cloud environment. This is a summary and links to additional background information on how active acoustics are used to study fish and zooplankton in the ocean, the types of equipment commonly deployed to collect the data, common data formats, and requirements for data standardization.",
     "crumbs": [
       "Background Material"
     ]
@@ -196,7 +196,7 @@
     "href": "content/background.html#active-acoustic-data-applications-within-noaa",
     "title": "Background Materials",
     "section": "Active Acoustic Data Applications within NOAA",
-    "text": "Active Acoustic Data Applications within NOAA\nNOAA Fisheries is charged with conducting stock assessments of commercially-important species of fish, and frequently uses acoustic-trawl surveys to accomplish this. … add more details …",
+    "text": "Active Acoustic Data Applications within NOAA\nNOAA Fisheries is charged with conducting stock assessments of commercially-important species of fish, and frequently uses acoustic-trawl survey methods to accomplish this.\n\nThe AFSC surveys pollock in Alaska\nThe SWFSC surveys coastal pelagic species on the West Coast\nThe NWFSC surveys Pacific hake in the U.S. and Canada\nThe PIFSC collects ecosystem and oceanography data from various research surveys in the Pacific\nThe",
     "crumbs": [
       "Background Material"
     ]

@@ -2,15 +2,23 @@
 title: Background Materials
 ---
 
-The goal of the Active Acoustics Strategic Initiative (AA-SI) includes organizing and standardizing multi-frequency and wide-bandwidth echosounder data to enable efficient data processing and analysis. We provide some background information on how active acoustics are used to study fish and zooplankton, the types of equipment and data formats commonly employed, and requirements for data standarization.
+The goal of the Active Acoustics Strategic Initiative (AA-SI) includes organizing and standardizing multi-frequency and wide-bandwidth echosounder data to enable efficient data processing and analysis in a cloud environment. This is a summary and links to additional background information on how active acoustics are used to study fish and zooplankton in the ocean, the types of equipment commonly deployed to collect the data, common data formats, and requirements for data standardization.
 
-# Reading Materials
+# Website Reading Materials
 
-[Discovery of Sound in the Ocean: How sound is used to locate fish](https://dosits.org/people-and-sound/fishing/how-is-sound-used-to-locate-fish/)
+[Discovery of Sound in the Ocean: How sound is used to locate fish (University of Rhode Island)](https://dosits.org/people-and-sound/fishing/how-is-sound-used-to-locate-fish/)
+
+[Understanding Our Ocean with Water-Column Sonar Data (NCEI)](https://storymaps.arcgis.com/stories/e245977def474bdba60952f30576908f)
 
 ## Active Acoustic Data Applications within NOAA
 
-NOAA Fisheries is charged with conducting stock assessments of commercially-important species of fish, and frequently uses acoustic-trawl surveys to accomplish this. ... add more details ...
+NOAA Fisheries is charged with conducting stock assessments of commercially-important species of fish, and frequently uses acoustic-trawl survey methods to accomplish this.
+
+-   The AFSC surveys [pollock in Alaska](https://www.fisheries.noaa.gov/s3//2025-03/midwater-assessment-conservation-engineering-flyer.pdf)
+-   The SWFSC surveys [coastal pelagic species on the West Coast](https://nmfs-swfsc-ast.github.io/echo-class/)
+-   The NWFSC surveys [Pacific hake in the U.S. and Canada](https://www.fisheries.noaa.gov/west-coast/science-data/joint-us-canada-integrated-ecosystem-and-pacific-hake-acoustic-trawl-survey)
+-   The PIFSC collects ecosystem and oceanography data from various [research surveys in the Pacific](https://www.fisheries.noaa.gov/pacific-islands/science-data/research-surveys-pacific#ecosystem-and-oceanography-surveys%C2%A0)
+-   The 
 
 ## Acoustic Instruments
 

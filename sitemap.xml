@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/ActivityA.html</loc>
-    <lastmod>2025-05-29T18:39:38.881Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/netcdf4.html</loc>
-    <lastmod>2025-05-29T18:39:38.882Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/ActivityB.html</loc>
-    <lastmod>2025-05-29T18:39:38.881Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/GCPworkstations.html</loc>
-    <lastmod>2025-05-29T18:39:38.882Z</lastmod>
+    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/index.html</loc>
+    <lastmod>2025-05-30T23:05:24.552Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/WhoWeAre.html</loc>
-    <lastmod>2025-05-29T18:39:38.882Z</lastmod>
+    <lastmod>2025-05-30T23:05:24.548Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/KongsbergEK.html</loc>
-    <lastmod>2025-05-29T18:39:38.882Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/index.html</loc>
-    <lastmod>2025-05-29T18:39:38.886Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/ActivityC.html</loc>
-    <lastmod>2025-05-29T18:39:38.881Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/onboarding.html</loc>
-    <lastmod>2025-05-29T18:39:38.882Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/background.html</loc>
-    <lastmod>2025-05-29T18:39:38.882Z</lastmod>
+    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/GCPworkstations.html</loc>
+    <lastmod>2025-05-30T23:05:24.547Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/GCPstorage.html</loc>
-    <lastmod>2025-05-29T18:39:38.881Z</lastmod>
+    <lastmod>2025-05-30T23:05:24.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/ActivityB.html</loc>
+    <lastmod>2025-05-30T23:05:24.547Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/activities.html</loc>
-    <lastmod>2025-05-29T18:39:38.882Z</lastmod>
+    <lastmod>2025-05-30T23:05:24.548Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/netcdf4.html</loc>
+    <lastmod>2025-05-30T23:05:24.548Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/ActivityD.html</loc>
-    <lastmod>2025-05-29T18:39:38.881Z</lastmod>
+    <lastmod>2025-05-30T23:05:24.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/KongsbergEK.html</loc>
+    <lastmod>2025-05-30T23:05:24.548Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/ActivityC.html</loc>
+    <lastmod>2025-05-30T23:05:24.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/background.html</loc>
+    <lastmod>2025-05-30T23:05:24.548Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/ActivityA.html</loc>
+    <lastmod>2025-05-30T23:05:24.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/AA-SI_PublicPage/content/onboarding.html</loc>
+    <lastmod>2025-05-30T23:05:24.548Z</lastmod>
   </url>
 </urlset>

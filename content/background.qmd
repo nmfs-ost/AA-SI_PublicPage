@@ -4,11 +4,11 @@ title: Background Materials
 
 The goal of the Active Acoustics Strategic Initiative (AA-SI) includes organizing and standardizing multi-frequency and wide-bandwidth echosounder data to enable efficient data processing and analysis in a cloud environment. This is a summary and links to additional background information on how active acoustics are used to study fish and zooplankton in the ocean, the types of equipment commonly deployed to collect the data, common data formats, and requirements for data standardization.
 
-# Website Reading Materials
+# Website Background Reading Materials
 
 [Discovery of Sound in the Ocean: How sound is used to locate fish (University of Rhode Island)](https://dosits.org/people-and-sound/fishing/how-is-sound-used-to-locate-fish/)
 
-[Understanding Our Ocean with Water-Column Sonar Data (NCEI)](https://storymaps.arcgis.com/stories/e245977def474bdba60952f30576908f)
+[Understanding Water-Column Sonar Data (NCEI)](https://storymaps.arcgis.com/stories/e245977def474bdba60952f30576908f)
 
 ## Active Acoustic Data Applications within NOAA
 
@@ -16,9 +16,10 @@ NOAA Fisheries is charged with conducting stock assessments of commercially-impo
 
 -   The AFSC surveys [pollock in Alaska](https://www.fisheries.noaa.gov/s3//2025-03/midwater-assessment-conservation-engineering-flyer.pdf)
 -   The SWFSC surveys [coastal pelagic species on the West Coast](https://nmfs-swfsc-ast.github.io/echo-class/)
--   The NWFSC surveys [Pacific hake in the U.S. and Canada](https://www.fisheries.noaa.gov/west-coast/science-data/joint-us-canada-integrated-ecosystem-and-pacific-hake-acoustic-trawl-survey)
--   The PIFSC collects ecosystem and oceanography data from various [research surveys in the Pacific](https://www.fisheries.noaa.gov/pacific-islands/science-data/research-surveys-pacific#ecosystem-and-oceanography-surveys%C2%A0)
--   The 
+-   The NWFSC surveys [Pacific hake on the U.S. and Canada West Coasts](https://www.fisheries.noaa.gov/west-coast/science-data/joint-us-canada-integrated-ecosystem-and-pacific-hake-acoustic-trawl-survey)
+-   The PIFSC collects ecosystem and oceanography data from various [research surveys in the Pacific Ocean near the Pacific Islands](https://www.fisheries.noaa.gov/pacific-islands/science-data/research-surveys-pacific#ecosystem-and-oceanography-surveys%C2%A0)
+-   The NEFSC conducts [ecosystem surveys on the U.S. East Coast](https://www.fisheries.noaa.gov/about/northeast-ecosystems-surveys)
+-   The SEFSC conducts [surveys of commercial and recreational fish using a variety of methods in the Southeast Atlantic and Gulf of America (formerly Gulf of Mexico)](https://www.fisheries.noaa.gov/science-data/southeast-science-surveys-and-research#fish-research)
 
 ## Acoustic Instruments
 
@@ -36,7 +37,7 @@ The [EK60](https://www.kongsberg.com/discovery/products/discontinued/simrad-ek60
 
 ### EK500
 
-The EK500 was used from the 1980s (1970s?) until the early 2000s on NOAA ships. More on this...
+The [EK500](https://support.echoview.com/WebHelp/Reference/Echosounder_Configuration/EK500_configuration.htm) was used from the 1980s until the early 2000s on NOAA ships. The AA-SI is focusing initially on EK80 and EK60 data formats, but may use some historical EK500 datasets in the future.
 
 ## Annotation Data
 
@@ -44,24 +45,10 @@ Find out more about the active acoustic annotations [here]().
 
 ## Metadata
 
-Find out more about metadata formats [here]().
+Find out more about metadata formats [here](https://github.com/nmfs-ost/AA-SI_metadata).
 
-## Biological Data
+Also, our collaborators at UW-APL ([Echospace](https://uw-echospace.github.io/)) have proposed set of specifications of data processing levels for acoustic data, which you can read about here [here](https://echolevels.readthedocs.io/en/latest/)
 
-Find out more about the biological data [here]().
+## Processing acoustic data using open science
 
-## Oceanographic Data
-
-Find out more about the oceanographic data [here]().
-
-## Meteorological Data
-
-Find out more about the meteorological data [here]().
-
-## Benthic Habitat Data
-
-Find out more about the benthic habitat data [here]().
-
-## Pelagic Habitat Data
-
-Find out more about the pelagic habitat data [here]().
+A lot of work has gone into developing [echopype](https://echopype.readthedocs.io/en/latest/), which is a python package built to "enable interoperability and scalability in ocean sonar data processing". The AA-SI will rely on echopype for a lot of NOAA's efforts to transition to using open source tools to process acoustic data. The UW-APL Echospace team's [echopype website](https://echopype.readthedocs.io/en/latest/) is a great place to get up to speed with this powerful package.

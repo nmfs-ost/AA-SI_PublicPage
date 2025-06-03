@@ -17,10 +17,9 @@ As access to all things NOAA and CI are worked out, you should be well on your w
 
 Throughout this month, you will be given a lot of information, so finding ways to document it, organize it, and reference it will be very beneficial. The team has a couple of tools along with existing documentation - your help using (and testing) these tools, providing feedback for what could be better, and additional information that is needed are always appreciated.
 
-
 ### Things to configure
 
-Here are some onboarding guidelines so you know you are on the right track: [Onboarding Guidelines](https://docs.google.com/document/d/12mKm5L2QYG5KNq3BLzqmOghY_q5v30HjlCyDKJd1-k8/edit?usp=sharing). Work with the NOAA Fisheries representatives, IT team, and others involved with your onboarding process to ask questions, clarify the process, and provide updates as steps are completed.
+Please review these [Onboarding Guidelines](https://docs.google.com/document/d/12mKm5L2QYG5KNq3BLzqmOghY_q5v30HjlCyDKJd1-k8/edit?usp=sharing) so you know you are on the right track. Work with your NOAA Fisheries representatives, IT team, and others involved with the onboarding process to ask questions, clarify the process, and provide updates as steps are completed.
 
 ### Training
 
@@ -38,4 +37,4 @@ As a NOAA affiliate, there are several training courses that you need to complet
 
 # NOAA Enterprise GitHub
 
-The AA-SI GitHub site is public, but to access the [repositories](https://github.com/orgs/nmfs-ost/repositories?q=AA) (e.g., view, push/pull) a person needs to have a NOAA GitHub Enterprise License. To start, follow this [link](https://github.com/enterprises/noaa-nmfs) to fill out the request form, learn more about NOAA GitHub Enterprise Licenses, and find out Science Center-specific procedures.
+This AA-SI GitHub site is public, but to access and work in the [repositories](https://github.com/orgs/nmfs-ost/repositories?q=AA) (e.g., view, push/pull) a person needs to have a NOAA GitHub Enterprise License. To start, follow this [link](https://github.com/enterprises/noaa-nmfs) to fill out the request form, learn more about NOAA GitHub Enterprise Licenses, and find out Science Center-specific procedures.

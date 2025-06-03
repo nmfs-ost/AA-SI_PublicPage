@@ -47,7 +47,7 @@ The [EK500](https://support.echoview.com/WebHelp/Reference/Echosounder_Configura
 
 ## Annotation Data
 
-Most of the active acoustic data collection during NOAA Fisheries surveys are currently processed using [Echoview](https://echoview.com/solutions/marine/). This user-friendly software allows individuals to mark echograms with details about fish schools of interest, and add notes that relate marks, or regions, to contextual information including trawl data, camera footage, or seafloor bottom. Find out more about the active acoustic annotations [here]().
+Most of the active acoustic data collection during NOAA Fisheries surveys are currently processed using [Echoview](https://echoview.com/solutions/marine/). This user-friendly software allows individuals to mark echograms with details about fish schools of interest, and add notes that relate marks, or regions, to contextual information including trawl data, camera footage, or seafloor bottom. Find out more about the active acoustic annotations [here].
 
 ## Metadata
 

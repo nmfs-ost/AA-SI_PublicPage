@@ -1,19 +1,24 @@
 ---
-title: AA SI Activities
+title: AA-SI Activities
 ---
 
-We have four unique but related activities within the AA SI, each focusing on a different aspect of our vision:
+We have four unique but related activities within the AA-SI, each focusing on a different aspect of our vision:
 
 ### Activity A: Echo Classification
-Develop advanced analytical methods for echo classification
+
+Develop advanced analytical methods for echo classification, including supervised and unsupervised machine learning, bayesian modeling, and other semi- or fully automated approaches
 
 ### Activity B: Validated Data
-Assemble training datasets from validated, historical echo sounder and co-variate data
+
+Assemble training datasets from validated, historical echo sounder and co-variate data for use in automated echo classification models. Each NOAA Fisheries Science Center has identified a dataset focus on initially, as well as co-variate data to support echo classification. Co-variate data includes information about trawl catches (fish species identification, length and age), oceanography (temperature, salinity, oxygen, currents), location (latitude, longitude, depth in the water column), bathymetry (seafloor depth, slope, substrate type), as well as possibly environmental DNA (species presence, abundance) and underwater camera footage (species presence, abundance).
 
 ### Activity C: Cloud Storage and Computing
-Procure cloud storage and computing
+
+With support from NOAA's Cloud Strategy Initiative, work towards moving data into a structured cloud-based storage solution, and develop cloud-based computing capabilities to efficiently process active acoustic datasets.
 
 ### Activity D: Satellite Communications
-Procure high-bandwidth satellite communications
 
-### Finally, we aim to continue testing, refining, and implementing these automated echo classification tools in support of reducing bias and improving efficiencies in NOAA Fisheries stock assessments
+Support greater ship-to-shore data transfers through the procurement of high-bandwidth satellite communications in coordination with OMAO, to increase access to near-real time active acoustic data during at-sea data collections, allowing for 
+
+
+Finally, we aim to continue testing, refining, and implementing these automated echo classification tools in support of reducing bias and improving efficiencies in NOAA Fisheries stock assessments

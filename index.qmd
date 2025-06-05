@@ -6,7 +6,7 @@ page-layout: full
 
 <img src="images/AA-SI_data-schematic_20250127.png" width="600" height="500" align="right"/>
 
-# Background
+## About
 
 The Active Acoustics Strategic Initiative (AA-SI) is a NOAA-Fisheries Essential Data Acquisition (EDA) project funded by the Inflation Reduction Act (IRA). It is a three-year project, with funding until the end of fiscal year 2026.
 
@@ -18,6 +18,8 @@ NOAA collects active acoustic data from an increasingly diverse number of crewed
 
 We are currently meeting on a bi-weekly basis and engaging with OMAO, contractors, and other collaborators regularly
 
-<iframe src="https://calendar.google.com/calendar/embed?src=c_cc85073a8a0c8af360845b22f3d32b21aa8b80add5f07be7979cd5d14531bd1b%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_cc85073a8a0c8af360845b22f3d32b21aa8b80add5f07be7979cd5d14531bd1b%40group.calendar.google.com&amp;ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no">
+
+</iframe>
 
 </iframe>

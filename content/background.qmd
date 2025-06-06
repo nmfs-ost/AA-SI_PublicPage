@@ -19,7 +19,7 @@ NOAA Fisheries is charged with conducting stock assessments of commercially-impo
 -   The NWFSC surveys [Pacific hake on the U.S. and Canada West Coasts](https://www.fisheries.noaa.gov/west-coast/science-data/joint-us-canada-integrated-ecosystem-and-pacific-hake-acoustic-trawl-survey)
 -   The PIFSC collects ecosystem and oceanography data from various [research surveys in the Pacific Ocean near the Pacific Islands](https://www.fisheries.noaa.gov/pacific-islands/science-data/research-surveys-pacific#ecosystem-and-oceanography-surveys%C2%A0)
 -   The NEFSC conducts [ecosystem surveys on the U.S. East Coast](https://www.fisheries.noaa.gov/about/northeast-ecosystems-surveys)
--   The SEFSC [surveys commercial and recreational fish in the Southeast Atlantic and Gulf of America (formerly Gulf of Mexico)](https://www.fisheries.noaa.gov/science-data/southeast-science-surveys-and-research#fish-research)
+-   The SEFSC [surveys commercial and recreational fish in the Southeast Atlantic and Gulf of America (formerly Gulf of Mexico)](https://www.fisheries.noaa.gov/feature-story/future-red-snapper-data-using-active-acoustic-monitoring-and-artificial-intelligence#:~:text=We%20use%20active%20acoustic%20monitoring,record%20activity%20from%20marine%20animals.)
 
 ## Acoustic Instruments
 
@@ -29,15 +29,15 @@ In addition to the active acoustic data, we often work with user annotations, me
 
 ### EK80
 
-The [EK80](https://www.kongsberg.com/discovery/ocean-science/ek-family/ek80/) is the latest in the Kongsberg line of scientific echosounders. All NOAA Ships collect data using the EK80. "EK80" refers to the echosounder, which is the term used to describe the combination of a transducer, which is an instrument that generates an electrical signal that is transmitted into the water, and the transceiver, which is the instrument that receives the electrical signal (voltage) or "echo" from the water and digitizes it using acquisition software. 
+The [EK80](https://www.kongsberg.com/discovery/ocean-science/ek-family/ek80/) is the latest in the Kongsberg line of scientific echosounders. All NOAA Ships collect data using the EK80. "EK80" refers to the echosounder, which is the term used to describe the combination of a transducer, which is an instrument that generates an electrical signal that is transmitted into the water, and the transceiver, which is the instrument that receives the electrical signal (voltage) or "echo" from the water and digitizes it using acquisition software.
 
 The EK80 has several echosounders that can be used. The shipboard echosounder is called a Wide-Band Transceiver (WBT), and portable units are WBT-Tubes or WBATs (Wide-Band Autonomous Transceivers).
 
 ### EK60
 
-The [EK60](https://www.kongsberg.com/discovery/products/discontinued/simrad-ek60/) is the previous generation scientific echosounder. It was introduced in the late 1990s, and was installed on NOAA Ships in the early 2000s. The majority of historic data collected by NOAA is from the EK60. 
+The [EK60](https://www.kongsberg.com/discovery/products/discontinued/simrad-ek60/) is the previous generation scientific echosounder. It was introduced in the late 1990s, and was installed on NOAA Ships in the early 2000s. The majority of historic data collected by NOAA is from the EK60.
 
-The echosounder was called the General Purpose Transceiver (GPT) and the data acquisition software was called "ER60". The current EK80 software can control both WBTs and GPTs. 
+The echosounder was called the General Purpose Transceiver (GPT) and the data acquisition software was called "ER60". The current EK80 software can control both WBTs and GPTs.
 
 Which software, ER60 or EK80, recorded the data is important to distinguish because the digital format of the data are different depending on software version.
 
@@ -47,7 +47,7 @@ The [EK500](https://support.echoview.com/WebHelp/Reference/Echosounder_Configura
 
 ## Annotation Data
 
-Most of the active acoustic data collection during NOAA Fisheries surveys are currently processed using [Echoview](https://echoview.com/solutions/marine/). This user-friendly software allows individuals to mark echograms with details about fish schools of interest, and add notes that relate marks, or regions, to contextual information including trawl data, camera footage, or seafloor bottom. Find out more about the active acoustic annotations [here].
+Most of the active acoustic data collection during NOAA Fisheries surveys are currently processed using [Echoview](https://echoview.com/solutions/marine/). This user-friendly software allows individuals to mark echograms with details about fish schools of interest, and add notes that relate marks, or regions, to contextual information including trawl data, camera footage, or seafloor bottom. Find out more about the active acoustic annotations \[here\].
 
 ## Metadata
 

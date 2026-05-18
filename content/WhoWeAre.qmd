@@ -2,6 +2,8 @@
 title: Meet the Team
 ---
 
+![AA-SI](../images/AA-SI_Workshop_2026-2.jpg)
+
 We are scientists from [NOAA Fisheries Science Centers](https://www.fisheries.noaa.gov/contact-directory/science-centers) around the country including Northeast, Southeast, Southwest, Northwest, Alaska, and Pacific Islands, NOAA's Office of Science and Technology ([OST](https://www.fisheries.noaa.gov/about/office-science-and-technology)) and NOAA's National Center for Environmental Information ([NCEI](https://www.ncei.noaa.gov/about-us)).
 
 We are partnering with NOAA's Office of Marine and Aviation Operations ([OMAO](https://www.omao.noaa.gov/about)), and Office of the Chief Information Officer ([OCIO](https://www.noaa.gov/organization/information-technology/about-ocio)) to advance "ship-to-shore" data capabilities including cloud storage and cloud computing.

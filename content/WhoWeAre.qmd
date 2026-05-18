@@ -20,9 +20,8 @@ We are also working with data analysts and scientists from NOAA's Cooperative In
 -   Timothy Rowell, SEFSC Rep
 -   Carrie Wall Bell, NCEI Rep
 -   Derek Bolser, OST Rep
--   David Demer, OST Rep
--   Robert Foy, NOAA Science Board Sponsor
--   Rick Methot, NOAA Science Board Sponsor
+-   John Hare, NOAA Science Board Sponsor
+-   David Demer, OST Sponsor
 
 ### Collaborators:
 
